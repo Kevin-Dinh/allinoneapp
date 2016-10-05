@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Weather Forecast</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="generic.js"></script>
+	<link rel="stylesheet" href="all.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</script>
+
+</head>
+
+<body>
+
+<div class="container">
+	<ul class="nav nav-tabs">
+	  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+	  <li><a data-toggle="tab" href="#menu1">Weather Forecast</a></li>
+	  <li><a data-toggle="tab" href="#menu2">Population</a></li>
+	</ul>
+
+	<div class="tab-content">
+		<div id="home" class="tab-pane fade in active">
+			This application will help you with the weather forcast and some figures that you may need to know around the world.
+		</div>
+		<div id="menu1" class="tab-pane fade">
+			<input type="text" name="location" id="locationId">
+
+			<input type="button" name="search" value="Search" onclick="search();">
+
+			<input type="button" name="clear" value="Clear" onclick="clear();">
+
+			<input type="button" name="compare" value="Compare weather" onclick="compare();">
+			<label style="display:none;" id="hiddenCity"></label>
+			<div id="city"></div>
+			<div id="displayData" style="display:inline-block;"></div>
+			<div id="displayAverage" style="float: right; display:inline-block;"></div>
+		</div>
+		<div id="menu2" class="tab-pane fade" ng-app="myApp" ng-controller="countriesCtrl">
+			<div class="row">
+				<div class="col-sm-2">Country:</div><div class="col-sm-9"><select id="selectedCountry" ng-model="selectedName" ng-options="x for x in countries"></select></div>
+				<div class="col-sm-2">Age:</div><div class="col-sm-9"><input type="text" id="age"></div> 
+				<div class="col-sm-2">Year:</div><div class="col-sm-9"><input type="text" id="year"></div> 
+				<div class="col-sm-2">Any Date:</div><div class="col-sm-9"><input type="text" id="anydate"></div> 
+				<div class="col-sm-2">Today:</div><div class="col-sm-9"><input type="text" id="today"> </div> 
+				<div class="col-sm-12"><button ng-click="populationSearch()">Search</button></div>
+				<div class="col-sm-12"><br/></div>
+			</div>
+			<div class="row" id="population">
+				<table class="tbPopulation">
+					<tr ng-repeat="x in alldata">
+						<td>Country</td><td>{{x.country}}</td>
+						<td>Age</td><td>{{x.age}}</td>
+						<td>Male</td><td>{{x.males}}</td>
+						<td>Female</td><td>{{x.females}}</td>
+						<td>Total</td><td>{{x.total}}</td>
+					</tr>
+				</table>
+				<table class="tbPopulation">
+					<tr ng-repeat="x in specificdata">
+						<td>Country</td><td>{{x.country}}</td>
+						<td>Age</td><td>{{x.age}}</td>
+						<td>Male</td><td>{{x.males}}</td>
+						<td>Female</td><td>{{x.females}}</td>
+						<td>Total</td><td>{{x.total}}</td>
+					</tr>
+				</table>
+			</div>
+
+		</div>
+	</div>
+</div>
+</body>
+</html>
