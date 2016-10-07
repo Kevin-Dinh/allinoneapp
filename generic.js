@@ -12,16 +12,27 @@ var information = {
 	APPID:"4066916114404bb6ee654b8bbc254890"
 }
 
+
+
+/* [CODEREVIEW]
+	We should place the entry point at top
+	then follow up by the methods ordered by it's priority
+	don't make JS source code messy like a spaghetti 
+*/
+
 $( function() {
     $( "#datepicker" ).datepicker({
     	dateFormat: 'yy-mm-dd',
     });
   });
 
+
+/* [CODEREVIEW] I think we could just use the method itself*/
 function refreshPage(){
 	location.reload();
 }
 
+/* [CODEREVIEW] too generic method name*/
 function search(){
 	var id = document.getElementById("locationId");
 	var locationId = id.value;
@@ -38,18 +49,27 @@ function search(){
 	
 };
 
+/* [CODEREVIEW] make arg more meaningfull*/
 function createDataTable(response){
 
 	document.getElementById("city").innerHTML = "Weather forecast from " + response.list[0].dt_txt + " to " + response.list[response.list.length -1].dt_txt; 
 	for (var i = 0; i < response.list.length; i++) { 
+		/* [CODEREVIEW] make a alias here for access the current item in loop
+		ex: var currentItemOrAnotherMoreSemanticName = response.list[i]; // then use it later, */
     	var date = response.list[i].dt_txt;
 		var city = response.city.name;
 		var humidity = response.list[i].main.humidity;
 		var windSpeed = response.list[i].wind.speed;
 		var description = response.list[i].weather[0].description;
+
+		/* [CODEREVIEW] 
+			what does this formular mean?
+			make a util method for re-usability and readility*/
 		var temperature = Math.round((response.list[i].main.temp - 273.15))*100/100;
 
+		/* [CODEREVIEW] give this variable some default value*/
 		var backgroundColor;
+		/* [CODEREVIEW] This range check is missing readbility and maintainability*/
 		if(i <= 3){
 			backgroundColor = information.greenBackground;
 		}else if (4 <= i && i <= 11) {
@@ -80,13 +100,21 @@ function createDataTable(response){
 			}
 		}*/
 		
-
-		$("#displayData").append('<table id="city'+i+'" style="background-color:' +backgroundColor+ ';" width="320" border="1"><tr><td colspan="2">Date ' + date + '</td></tr><tr><td>City</td><td colspan="2" rowspan="1">' + city + '</td></tr><tr><td>Humidity</td><td width="118" class="humid">' + humidity + '%</td></tr><tr><td>Wind Speed</td><td width="186" class="wind">' + windSpeed + ' km/h</td></tr><tr><td>Weather</td><td width="186">' + description + '</td></tr><tr><td>Temperature</td><td width="186" class="temp">' + temperature + '&deg;C</td></tr></table>');
+		/* [CODEREVIEW] too long LOC, make it more readble, maintainable*/
+		/*RECOMMENDATION 
+			$("#displayData").append('<table id="city')
+			.append(i)
+			.append('"style="background-color:' +backgroundColor+ ';" width="320" border="1"><tr><td colspan="2">Date ' + date + '</td></tr><tr><td>City</td><td colspan="2" rowspan="1">' + city + '</td></tr><tr><td>Humidity</td><td width="118" class="humid">' + humidity + '%</td></tr><tr><td>Wind Speed</td><td width="186" class="wind">' + windSpeed + ' km/h</td></tr><tr><td>Weather</td><td width="186">' + description + '</td></tr><tr><td>Temperature</td><td width="186" class="temp">' + temperature + '&deg;C</td></tr></table>');
+			}*/
+		$("#displayData").append('<table id="city')
+		.append(i)
+		.append('"style="background-color:' +backgroundColor+ ';" width="320" border="1"><tr><td colspan="2">Date ' + date + '</td></tr><tr><td>City</td><td colspan="2" rowspan="1">' + city + '</td></tr><tr><td>Humidity</td><td width="118" class="humid">' + humidity + '%</td></tr><tr><td>Wind Speed</td><td width="186" class="wind">' + windSpeed + ' km/h</td></tr><tr><td>Weather</td><td width="186">' + description + '</td></tr><tr><td>Temperature</td><td width="186" class="temp">' + temperature + '&deg;C</td></tr></table>');
 	}
 	$("#hiddenCity").text(response.city.name);
 	
 }
 
+/* [CODEREVIEW] again too generic method name, make it more sematic */
 function compare(){
 	var humidity = document.getElementsByClassName("humid");
 	var temp = document.getElementsByClassName("temp");
@@ -105,11 +133,14 @@ function compare(){
 		var onlyNumber = stringHumid.substring(0, stringHumid.length - 1);
 		averageTemp += +tempOnlyNumber;
 		averageHumidity += +onlyNumber;
-		if(i == humidity.length - 1){
-			finalNumber = Math.round(averageHumidity/i)*100/100;
-			finalTempNumber = Math.round(averageTemp/i)*100/100;
-		}
 	}
+
+
+	/* [CODEREVIEW] move the unnecessary part of code out of loop */
+	finalNumber = Math.round(averageHumidity/(humidity.length - 1))*100/100;
+	finalTempNumber = Math.round(averageTemp/(humidity.length - 1))*100/100;
+	
+
 
 	allMessages = checkInfor(finalNumber);
 
@@ -122,11 +153,13 @@ function compare(){
 var app = angular.module('myApp', []);
 app.controller('countriesCtrl', function($scope, $http) {
 	//@webservice
- 		$http.get(information.url2)
-    	.then(function (response) {
+ 		$http.get(information.url2) /* [CODEREVIEW] not meaningfull variable's name*/
+    	.then(function (response) {  /* [CODEREVIEW] response: the same, make it more semantic*/
     		var list = response.data.countries;
     		$scope.countries = list;
     	});
+
+    	/* [CODEREVIEW] don't try to miss pure js style with angular style on this way*/
    	$scope.populationSearch = function() {
 		var country = document.getElementById("selectedCountry").value;
 		//var country = document.getElementById("selectedCountry");
@@ -154,6 +187,8 @@ app.controller('countriesCtrl', function($scope, $http) {
 		 	$.var += anydate.value+"/";
 		 }
 		 
+
+		 /* [CODEREVIEW] USE $http, make it more semantic, dont mix type*/
 		//var paramData = {"/":year.value, "/":country.substring(7),"/":age.value, "/":anydate.value}
 		//urlPopulation = $.var;
 		//@webservice
@@ -176,6 +211,7 @@ function comparePop(males, females){
 
 }
 
+/* [CODEREVIEW] make it more meanning name*/
 function checkInfor(number){
 	if(40 <= number && number <= 50){
 		return {message:information.good, color:'lightgreen'};
