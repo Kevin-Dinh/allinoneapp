@@ -4,7 +4,7 @@ This application is simple and easy to use which includes two parts (weather pre
 # How to run
 Open allinoneapp.html on browser.
 
-# Part 1: Weather pridiction for today and the next 4 days.
+# Part 1: Weather prediction for today and the next 4 days.
 
   Step 1: Choose 1 city's code at a time and enter into input text;
   
