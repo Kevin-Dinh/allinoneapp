@@ -3,19 +3,11 @@
 <head>
 	<title>Weather Forecast</title>
 	<meta charset="utf-8">
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-	
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script type="text/javascript" src="generic.js"></script>
 	<link rel="stylesheet" href="all.css">
-
+	<!-- Use to change table's appearance-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
 	
-</script>
-
 </head>
 
 <body>
@@ -35,11 +27,11 @@
 			<div>
 				<input type="text" name="location" id="locationId">
 
-				<input type="button" name="search" value="Search" onclick="search();">
+				<input type="button" class="btn btn-default" name="search" value="Search" onclick="searchForWeather();">
 
-				<input type="button" name="clear" value="Refresh" onclick="refreshPage();">
+				<input type="button" class="btn btn-default" name="clear" value="Refresh" onclick="refreshPage();">
 
-				<input type="button" name="compare" value="Compare weather" onclick="compare();">
+				<input type="button" class="btn btn-default" name="compare" value="Compare weather" onclick="getAverageWeather();">
 
 				<p>Here is some city's codes: 6455259, 3060972, 1566083, 2969284</p>
 				<label style="display:none;" id="hiddenCity"></label>
@@ -57,7 +49,8 @@
 				<div class="col-sm-2">Year:</div><div class="col-sm-9"><input type="text" id="year"></div> 
 				<div class="col-sm-2">Any Date:</div><div class="col-sm-9"><input type="text" id="datepicker"></div> 
 				<div class="col-sm-2">Today:</div><div class="col-sm-9"><input type="text" id="today"> </div> 
-				<div class="col-sm-12"><button ng-click="populationSearch()">Search</button></div>
+				<div class="col-sm-12"><button class="btn btn-default" ng-click="populationSearch();">Search</button><button class="btn btn-default" ng-click="emptyAllTxtBox();">Clear</button></div>
+				
 				<div class="col-sm-12"><br/></div>
 			</div>
 			<div class="row">
@@ -88,5 +81,17 @@
 		</div>
 	</div>
 </div>
+
+<!-- Use to shorten the lines of code -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<!-- Use to proceed some commands instead of using Javascript -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<!-- Use to display datepicker -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- Use to format table-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Our javascrip file -->
+<script type="text/javascript" src="generic.js"></script>
 </body>
 </html>

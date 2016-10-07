@@ -22,7 +22,7 @@ function refreshPage(){
 	location.reload();
 }
 
-function search(){
+function searchForWeather(){
 	var id = document.getElementById("locationId");
 	var locationId = id.value;
 	var param = {id:locationId, APPID: information.APPID}
@@ -31,8 +31,8 @@ function search(){
 		dataType: 'jsonp',
 		url: information.url1,
 		data: param,
-		success: function (response){
-			createDataTable(response);
+		success: function (weatherData){
+			createDataTable(weatherData);
 		},
 	});
 	
@@ -61,33 +61,15 @@ function createDataTable(response){
 		}  else if(28 <= i && i <= 35) {
 			backgroundColor = information.whiteBackground;
 		} 
-		/*backgroundColor = information.greenBackground;
-		if(i >= 1){
-			var date2 = (response.list[i - 1].dt_txt);
-			var check = false;
-			var d1 = date.substring(0,10);
-			var d2 = date2.substring(0,10);
-			if( d1 === d2){
-				check = true;
-			}else{
-				check = false;
-			}
-
-			if(check == true){
-				backgroundColor = information.greenBackground;
-			} else {
-				backgroundColor = information.blueBackground;
-			}
-		}*/
 		
+	$("#displayData").append('<table id="city'+i+'" style="background-color:' +backgroundColor+ ';" width="320" border="1"><tr><td colspan="2">Date ' + date + '</td></tr><tr><td>City</td><td colspan="2" rowspan="1">' + city + '</td></tr><tr><td>Humidity</td><td width="118" class="humid">' + humidity + '%</td></tr><tr><td>Wind Speed</td><td width="186" class="wind">' + windSpeed + ' km/h</td></tr><tr><td>Weather</td><td width="186">' + description + '</td></tr><tr><td>Temperature</td><td width="186" class="temp">' + temperature + '&deg;C</td></tr></table>');
 
-		$("#displayData").append('<table id="city'+i+'" style="background-color:' +backgroundColor+ ';" width="320" border="1"><tr><td colspan="2">Date ' + date + '</td></tr><tr><td>City</td><td colspan="2" rowspan="1">' + city + '</td></tr><tr><td>Humidity</td><td width="118" class="humid">' + humidity + '%</td></tr><tr><td>Wind Speed</td><td width="186" class="wind">' + windSpeed + ' km/h</td></tr><tr><td>Weather</td><td width="186">' + description + '</td></tr><tr><td>Temperature</td><td width="186" class="temp">' + temperature + '&deg;C</td></tr></table>');
 	}
 	$("#hiddenCity").text(response.city.name);
 	
 }
 
-function compare(){
+function getAverageWeather(){
 	var humidity = document.getElementsByClassName("humid");
 	var temp = document.getElementsByClassName("temp");
 	var averageWind = document.getElementsByClassName("wind");
@@ -105,11 +87,11 @@ function compare(){
 		var onlyNumber = stringHumid.substring(0, stringHumid.length - 1);
 		averageTemp += +tempOnlyNumber;
 		averageHumidity += +onlyNumber;
-		if(i == humidity.length - 1){
-			finalNumber = Math.round(averageHumidity/i)*100/100;
-			finalTempNumber = Math.round(averageTemp/i)*100/100;
-		}
 	}
+
+
+	finalNumber = Math.round(averageHumidity/humidity.length - 1)*100/100;
+	finalTempNumber = Math.round(averageTemp/humidity.length - 1)*100/100;
 
 	allMessages = checkInfor(finalNumber);
 
@@ -123,8 +105,8 @@ var app = angular.module('myApp', []);
 app.controller('countriesCtrl', function($scope, $http) {
 	//@webservice
  		$http.get(information.url2)
-    	.then(function (response) {
-    		var list = response.data.countries;
+    	.then(function (countries) {
+    		var list = countries.data.countries;
     		$scope.countries = list;
     	});
    	$scope.populationSearch = function() {
@@ -153,22 +135,28 @@ app.controller('countriesCtrl', function($scope, $http) {
 		if(anydate.value != ""){
 		 	$.var += anydate.value+"/";
 		 }
-		 
-		//var paramData = {"/":year.value, "/":country.substring(7),"/":age.value, "/":anydate.value}
-		//urlPopulation = $.var;
+
 		//@webservice
 		$.ajax({
-			documentataType: 'json',
+			dataType: 'json',
 			url: $.var,
 			data: {},
-			success: function (response){
+			success: function (population){
 				if(anydate.value != ""){
-					$scope.specificdate = response;
+					$scope.specificdate = population;
 				}else{
-					$scope.alldata = response;
+					$scope.alldata = population;
 				}
 			},
 		});
+   	};
+
+   	$scope.emptyAllTxtBox = function(){
+		$("#selectedCountry").val('');
+		$("#age").val('');
+		$("#year").val('');
+		$("#datepicker").val('');
+		$("#today").val('');
    	};
 });
 
