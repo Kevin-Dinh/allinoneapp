@@ -6,3 +6,5 @@ echo CSS $(ls -d *css* | wc -l)
 echo JS $(ls -d *js* | wc -l)
 echo Nunber of IF in the code: $(grasp -c if -r | cut -d":" -f2)
 echo Number of WS call: $(grep -c "@webservice" generic.js)
+echo Errors from JS file:
+jshint .
