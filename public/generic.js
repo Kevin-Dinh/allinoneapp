@@ -88,16 +88,19 @@ function refreshPage() {
 }
 
 function createDataTable(weatherList) {
-    var counter = 0;
-    // CODEREVIEW: SECURITY XSS attack by WS response ?
+ 
     document.getElementById("city").innerHTML = "Weather forecast from " + weatherList.list[0].dt_txt + " to " + weatherList.list[weatherList.list.length - 1].dt_txt;
     // CODEREVIEW: I hate for loops 
+	$("#displayData").innerHTML=weatherList.map(generateMarkup).join("");
+	/// asdasdfsdfqsdfadfadf
 
-    for (var i = 0; i < weatherList.list.length; i++) { //CODEREVIEW: perf, see jsperf for samples
-    // a1:    for (var i = Things.length - 1; i >= 0; i--) {
-    // 	Things[i]
-    // }
-
+    function generateMarkup(weatherItem){
+    	return `<sasa>${data.descriotion}`,{
+        	description:weatherItem.list[i].weather[0].description,
+			Cityz: parse(weatherItem.city.name),
+			humidity: enc(weatherItem.main.humidity)
+        });
+    }    
     // a2: for (var i = 0, l = weatherList.list.length; i < l ; i++) 
     	// calculates backgond color, and sets displayData
         var backgroundColor;
@@ -133,6 +136,7 @@ function createDataTable(weatherList) {
         	+ backgroundColor + 
         	';" width="320" border="1"><tr><td colspan="2">Date ' + currentDateWithTime + '</td></tr><tr><td>City</td><td colspan="2" rowspan="1">' + city + '</td></tr><tr><td>Humidity</td><td width="118" class="humid">' + humidity + '%</td></tr><tr><td>Wind Speed</td><td width="186" class="wind">' + windSpeed + ' km/h</td></tr><tr><td>Weather</td><td width="186">' + description + '</td></tr><tr><td>Temperature</td><td width="186" class="temp">' + temperature + '&deg;C</td></tr></table>');
 
+        
     }
 
     // CODEREVIEW: lookup: $("#displayData").append(markup.join());
