@@ -2,7 +2,11 @@
 This application is simple and easy to use which includes two parts (weather prediction and population for specific country).
 
 # How to run
-Open allinoneapp.html on browser.
+
+Start server: run "node expressServer.js" on command line
+
+Browse to: http://localhost:8080/allinoneapp.html
+
 
 # Part 1: Weather prediction for today and the next 4 days.
 
