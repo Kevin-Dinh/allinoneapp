@@ -3,9 +3,13 @@ This application is simple and easy to use which includes two parts (weather pre
 
 # How to run
 
-Start server: run "node expressServer.js" on command line
+Start server:  
 
-Browse to: http://localhost:8080/allinoneapp.html
+	npm install
+	node expressServer.js &
+	xs-open http://localhost:8080/allinoneapp.html
+
+or browse to: <http://localhost:8080/allinoneapp.html>
 
 
 # Part 1: Weather prediction for today and the next 4 days.

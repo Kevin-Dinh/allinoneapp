@@ -1,0 +1,22 @@
+{
+  "name": "allinoneapp",
+  "version": "1.0.0",
+  "description": "This application is simple and easy to use which includes two parts (weather prediction and population for specific country).",
+  "main": "expressServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin-Dinh/allinoneapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevin-Dinh/allinoneapp/issues"
+  },
+  "homepage": "https://github.com/Kevin-Dinh/allinoneapp#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
