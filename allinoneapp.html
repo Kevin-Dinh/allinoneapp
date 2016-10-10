@@ -26,10 +26,14 @@
 		<div id="menu1" class="tab-pane fade">
 			<div>
 				<input type="text" name="location" id="locationId">
+				<!-- CODEREVIEW: no Onclick in the code, this is 80s style DHTML dark ages 
+				attachEvent or jQuery equivalent in Script, or angular	
+				-->
+				<input type="button" class="btn btn-default" name="search" value="Search" 
+				onclick="searchForWeather();">
 
-				<input type="button" class="btn btn-default" name="search" value="Search" onclick="searchForWeather();">
-
-				<input type="button" class="btn btn-default" name="clear" value="Refresh" onclick="refreshPage();">
+				<input type="button" class="btn btn-default" name="clear" value="Refresh" 
+				onclick="refreshPage();">
 
 				<input type="button" class="btn btn-default" name="compare" value="Compare weather" onclick="getAverageWeather();">
 
