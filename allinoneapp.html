@@ -55,17 +55,25 @@
 			</div>
 			<div class="row">
 				<table class="table" id="allpop">
+					<tr ng-repeat="x in header">
+						<td class="header">Country</td>
+						<td class="header">Age</td>
+						<td class="header">Population</td>
+						<td class="header">Population</td>
+						<td class="header">Total</td>
+					</tr>
 					<tr ng-repeat="x in alldata">
-						<td>Country</td><td>{{x.country}}</td>
-						<td>Age</td><td>{{x.age}}</td>
-						<td>Male</td><td class="male">{{x.males}}</td>
-						<td>Female</td><td class="female">{{x.females}}</td>
-						<td>Total</td><td>{{x.total}}</td>
+						<td>{{x.country}}</td>
+						<td>{{x.age}}</td>
+						<td class="male">{{x.males}}</td>
+						<td class="female">{{x.females}}</td>
+						<td>{{x.total}}</td>
 					</tr>
 				</table>
 				<table class="table" id="specdate">
 					<tr ng-repeat="x in specificdate">
-						<td width="300px" colspan="2">{{country}}</td>
+						<td width="100px">Country</td>
+						<td width="200px" colspan="2">{{country}}</td>
 					</tr>
 					<tr ng-repeat="x in specificdate">
 						<td width="100px">Date</td>

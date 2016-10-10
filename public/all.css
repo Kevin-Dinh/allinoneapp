@@ -12,3 +12,15 @@
 .red{
 	color: red;
 }
+
+.header{
+	font-weight: bold;
+}
+
+.hideTable{
+	display:none;
+}
+
+.showTable{
+	display:inline-table;
+}

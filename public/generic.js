@@ -43,6 +43,7 @@ app.controller('countriesCtrl', function($scope, $http) {
 					$scope.specificdate = population;
 				}else{
 					$scope.alldata = population;
+					$scope.header = [1];
 				}
 			},
 		});
