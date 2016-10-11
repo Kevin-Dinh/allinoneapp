@@ -8,7 +8,6 @@ app.controller('countriesCtrl', function($scope, $http) {
     	});
    	$scope.populationSearch = function() {
 		var country = document.getElementById("selectedCountry").value;
-		//var country = document.getElementById("selectedCountry");
 		var age = document.getElementById("age");
 		var year = document.getElementById("year");
 		var today = document.getElementById("today");
@@ -56,6 +55,34 @@ app.controller('countriesCtrl', function($scope, $http) {
 		$("#datepicker").val('');
 		$("#today").val('');
    	};
+
+   	$scope.showBiggerNumber = function(){
+		var male = document.getElementsByClassName("male");
+		var female = document.getElementsByClassName("female");
+		var maleTotal;
+		var femaleTotal;
+		var checkBiggerNumber = false;
+		var color;
+		for(var i = 0; i <= male.length - 1; i++){
+			if(male[i] != 'undefined'){
+				maleTotal = male[i].innerHTML;
+				femaleTotal = female[i].innerHTML;
+				checkBiggerNumber = compare(maleTotal, femaleTotal);
+				color = assignColor(checkBiggerNumber);
+				if(color == 'red'){
+					$scope.checkColor = checkBiggerNumber;
+				}else{
+					$scope.checkColor;
+				}
+			}
+			
+			//$scope.colorClass = color;
+			//var text = angular.element(document.querySelector('.male'));
+			//$scope.colorClass.addClass(color);
+		}
+
+		
+	};
 });
 
 $( function() {
@@ -63,6 +90,18 @@ $( function() {
     	dateFormat: 'yy-mm-dd',
     });
   });
+
+function compare(malePopulation, femalePopulation){
+	if(malePopulation > femalePopulation){
+		return true;
+	}
+}
+
+function assignColor(data){
+	if(data == true){
+		return colorObj[5];
+	}
+}
 
 function refreshPage(){
 	location.reload();
