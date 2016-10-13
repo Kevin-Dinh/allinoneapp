@@ -36,34 +36,34 @@ This document shell name all APIs, in ES, jsquery, angular and dojo for common t
 |									|									|																	|	
 |									|									|																	|
 |									|									|																	|
-|String template(XSS, safe)			|.createTextNode(): replace all special characters, encode,|https://www.sitepoint.com/jquery-string-template-format-function/	|
+|String template(XSS, safe)			|.createTextNode(): replace all special characters, encode,	|https://www.sitepoint.com/jquery-string-template-format-function/	| this URL is not available(<http://livedocs.dojotoolkit.org/dijit/_TemplatedMixin#the­template>)
 |									|									|																	|
 |									|									|																	|
 |									|									|																	|
-|look up element					|.find(), $("id-selector") 			|https://api.jquery.com/id-selector/, https://api.jquery.com/find/	|
+|look up element					|.find(), $("id-selector") 			|<https://api.jquery.com/id-selector/>, <https://api.jquery.com/find/>	|
 |									|Eg. $("#id-selector").val()		|																	|
 |									|									|																	|
 |									|									|																	|
 |									|									|																	|
-|for loop							|$.each(array,function(index,value){}) 	|																	|
+|for loop							|$.each(array,function(index,value){}) 	|<http://api.jquery.com/jquery.each/>								|
 |									|									|																	|
 |									|									|																	|
 |									|									|																	|
 |									|									|																	|
 |									|									|																	|
-|error handling						|.error(funtion(jqxhr){jqxhr.responseJSON.detail});				|https://api.jquery.com/error/, 		|
-|									|try{}catch (err){}finally{}		|http://www.jquerybyexample.net/2014/02/jquery-error-handling-try-catch.html|
+|error handling						|.error(funtion(jqxhr){jqxhr.responseJSON.detail});				|<https://api.jquery.com/error/>, 		|
+|									|try{}catch (err){}finally{}		|<http://www.jquerybyexample.net/2014/02/jquery-error-handling-try-catch.html>|
 |									|									|																	|
 |									|									|																	|
 |									|									|																	|
 |parsing of datetypes 				|Date.parse():						|																	|
 |use standard or 					|$.parseHTML(string): convert String|<https://api.jquery.com/jquery.parsehtml/>							|
-|encapuslate in functions			|to to set of DOM nodes				|https://developer.mozilla.org/en-US/docs/Web/						|
+|encapuslate in functions			|to to set of DOM nodes				|<https://developer.mozilla.org/en-US/docs/Web/						|
 |									|string.split(separator): split		|JavaScript/Reference/Global_Objects/String/split>					|
 |									|String into an array				|																	|
 |									|									|																	|
 |									|									|																	|
-|minxing object						|$.merge(arr1, arr2)				|	https://api.jquery.com/jquery.merge/						|
+|minxing object						|$.merge(arr1, arr2)				|	<https://api.jquery.com/jquery.merge/>						|
 |									|									|																	|
 |									|							|																	|
 |									|									|																	|
