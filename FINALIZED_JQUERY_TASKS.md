@@ -56,7 +56,7 @@ This document shell name all APIs, in ES, jsquery, angular and dojo for common t
 |									|									|																	|
 |									|									|																	|
 |									|									|																	|
-|parsing of datetypes 				|Date.parse():						|																	|
+|parsing of datetypes 				|Date.parse():						|<https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Date/parse>|
 |use standard or 					|$.parseHTML(string): convert String|<https://api.jquery.com/jquery.parsehtml/>							|
 |encapuslate in functions			|to to set of DOM nodes				|<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split>						|
 |									|string.split(separator): split		|					|
