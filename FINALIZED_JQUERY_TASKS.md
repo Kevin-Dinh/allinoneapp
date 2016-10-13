@@ -36,7 +36,7 @@ This document shell name all APIs, in ES, jsquery, angular and dojo for common t
 |									|									|																	|	
 |									|									|																	|
 |									|									|																	|
-|String template(XSS, safe)			|									|https://www.sitepoint.com/jquery-string-template-format-function/	|
+|String template(XSS, safe)			|.createTextNode(): replace all special characters, encode,|https://www.sitepoint.com/jquery-string-template-format-function/	|
 |									|									|																	|
 |									|									|																	|
 |									|									|																	|
@@ -67,7 +67,7 @@ This document shell name all APIs, in ES, jsquery, angular and dojo for common t
 |									|									|																	|
 |									|							|																	|
 |									|									|																	|
-|String template					|	.createTextNode(): replace all special characters, encode, |													|
+|									|									 |													|
 |									|									|																	|
 |									|									|																	|
 |									|									|																	|
