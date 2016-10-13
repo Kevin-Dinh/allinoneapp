@@ -25,9 +25,11 @@
 		</div>
 		<div id="menu1" class="tab-pane fade">
 			<div>
+				<div class="col-sm-12" id="errorHandlerForWeatherTab"></div> 
 				<input type="text" name="location" id="locationId">
 
-				<input type="button" class="btn btn-default" name="search" value="Search" onclick="searchForWeather();">
+				<!-- <input type="button" class="btn btn-default" name="search" value="Search" onclick="searchForWeather();"> -->
+				<button class="btn btn-default" id="searchWeather">Search</button>
 
 				<input type="button" class="btn btn-default" name="clear" value="Refresh" onclick="refreshPage();">
 
@@ -49,6 +51,7 @@
 				<div class="col-sm-2">Year:</div><div class="col-sm-9"><input type="text" id="year"></div> 
 				<div class="col-sm-2">Any Date:</div><div class="col-sm-9"><input type="text" id="datepicker"></div> 
 				<div class="col-sm-2">Today:</div><div class="col-sm-9"><input type="text" id="today"> </div> 
+				<div class="col-sm-12" id="errorHandler"></div> 
 				<div class="col-sm-12">
 					<button class="btn btn-default" ng-click="populationSearch();">Search</button>
 					<button class="btn btn-default" ng-click="emptyAllTxtBox();">Clear</button>
@@ -104,6 +107,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!-- Our javascrip file -->
+<script type="text/javascript" src="services.js"></script>
 <script type="text/javascript" src="generic.js"></script>
 </body>
 </html>
