@@ -91,9 +91,9 @@ function assignColor(data){
 	return data == true ? $colorObj[5] : "";
 }
 
-function refreshPage(){
+$("#refresh").bind("click", function refreshPage(){
 	location.reload();
-}
+});
 
 
 
@@ -147,7 +147,7 @@ function createDataTable(weatherList){
 /*
 	This function will display average data
 */
-function getAverageWeather(){
+$("#averageWeather").bind("click", function getAverageWeather(){
 
 	$humidity = $(".humid");
 	$temp = $(".temp"),
@@ -183,7 +183,7 @@ function getAverageWeather(){
 		$finalHumidity + '</td></tr><tr><td>Average Temperature</td><td>' + 
 		$finalTempNumber + '</td></tr><tr><td>Recommendation</td><td>' + 
 		$allMessages.message+'</td></tr></table>');
-}
+});
 
 function roundNumberToTwoDecimal(total, length){
 	return $average = Math.round(total/length)*100/100;
