@@ -1,0 +1,11 @@
+{
+    "$schema":"http://json-schema.org/draft-03/schema",
+    "additionalProperties":{},
+    "type":"object", 
+    "properties":{
+        "prodName":{
+        	"type":"string",
+            "required":false
+        }
+    }
+}

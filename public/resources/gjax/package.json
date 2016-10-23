@@ -1,0 +1,15 @@
+{
+	"name": "gjax",
+	"version":"1.6.0dev",
+	"directories": {
+		"lib": "."
+	},
+	"main":"main",
+	"dependencies": {
+		"dojo": "https://github.com/gratex/dojo.git#custom6"
+	},
+	"description": "GTI libraries.",
+	"licenses": [],
+	"keywords": ["JavaScript", "Dojo", "Widget"],
+	"dojoBuild": "gjax.profile.js"
+}

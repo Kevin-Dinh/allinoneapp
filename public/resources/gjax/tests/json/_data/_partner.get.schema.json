@@ -1,0 +1,356 @@
+{
+	"id": "BD_PARTNERS",
+	"additionalProperties": false,
+	"type": "object",
+	"properties": {
+		"identifCardNum": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Identification card number - if the partner is a physical person.",
+			"maxLength": 20,
+			"_db_meta": "VARCHAR2(20 CHAR)"
+		},
+		"passportNum": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Passport number - if the partner is a physical person.",
+			"maxLength": 20,
+			"_db_meta": "VARCHAR2(20 CHAR)"
+		},
+		"partId": {
+			"type": "integer",
+			"required": true,
+			"description": "Partner ID.",
+			"_db_meta": "NUMBER(10,0) NOT NULL",
+			"maximum": 9999999999
+		},
+		"partnerType": {
+			"type": "string",
+			"required": true,
+			"description": "Partner type. Not used.",
+			"maxLength": 1,
+			"_db_meta": "VARCHAR2(1 CHAR) NOT NULL"
+		},
+		"personalNum": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Personal number of a person.",
+			"maxLength": 10,
+			"_db_meta": "VARCHAR2(10 CHAR)"
+		},
+		"personalNumLock": {
+			"type": "boolean",
+			"description": "N_PERSONAL_NUM_LOCK number"
+		},
+		"beforeTitle": {
+			"type": [
+				"integer",
+				"null"
+			],
+			"description": "Title before the name of a person.",
+			"maxLength": 30,
+			"_db_meta": "VARCHAR2(30 CHAR)"
+		},
+		"beforeTitleLock": {
+			"type": "boolean",
+			"description": "N_BEFORE_TITLE_LOCK number"
+		},
+		"firstName": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "First name of a person.",
+			"maxLength": 30,
+			"_db_meta": "VARCHAR2(30 CHAR)"
+		},
+		"firstNameLock": {
+			"type": "boolean",
+			"description": "N_FIRST_NAME_LOCK number"
+		},
+		"middleName": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Middle name of a person.",
+			"maxLength": 30,
+			"_db_meta": "VARCHAR2(30 CHAR)"
+		},
+		"middleNameLock": {
+			"type": "boolean",
+			"description": "N_MIDDLE_NAME_LOCK number"
+		},
+		"surname": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Surname of a person.",
+			"maxLength": 50,
+			"_db_meta": "VARCHAR2(50 CHAR)"
+		},
+		"surnameLock": {
+			"type": "boolean",
+			"description": "N_SURNAME_LOCK number"
+		},
+		"afterTitle": {
+			"type": [
+				"integer",
+				"null"
+			],
+			"description": "Title after the name of a person.",
+			"maxLength": 30,
+			"_db_meta": "VARCHAR2(30 CHAR)"
+		},
+		"afterTitleLock": {
+			"type": "boolean",
+			"description": "N_AFTER_TITLE_LOCK number"
+		},
+		"maidenName": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Surname of a person before she got married.",
+			"maxLength": 50,
+			"_db_meta": "VARCHAR2(50 CHAR)"
+		},
+		"maidenNameLock": {
+			"type": "boolean",
+			"description": "N_MAIDEN_NAME_LOCK number"
+		},
+		"nationality": {
+			"type": [
+				"integer",
+				"null"
+			],
+			"description": "Nationality of a partner.",
+			"maxLength": 10,
+			"_db_meta": "VARCHAR2(10 CHAR)"
+		},
+		"sex": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Sex of a person.",
+			"maxLength": 10,
+			"_db_meta": "VARCHAR2(10 CHAR)"
+		},
+		"sexLock": {
+			"type": "boolean",
+			"description": "N_SEX_LOCK number"
+		},
+		"maritalStatus": {
+			"type": [
+				"integer",
+				"null"
+			],
+			"description": "Marital status of a person.",
+			"maxLength": 10,
+			"_db_meta": "VARCHAR2(10 CHAR)"
+		},
+		"employmentStatus": {
+			"type": [
+				"integer",
+				"null"
+			],
+			"description": "Employment status of a person.",
+			"maxLength": 10,
+			"_db_meta": "VARCHAR2(10 CHAR)"
+		},
+		"occupation": {
+			"type": [
+				"integer",
+				"null"
+			],
+			"description": "Occupation of a person.",
+			"maxLength": 10,
+			"_db_meta": "VARCHAR2(10 CHAR)"
+		},
+		"ssn": {
+			"type": "string",
+			"description": "Číslo sociálnej poistky char",
+			"maxLength": 30
+		},
+		"regNumber": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Registration number of an organization.",
+			"maxLength": 20,
+			"_db_meta": "VARCHAR2(20 CHAR)"
+		},
+		"institutionName": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Name of an organization.",
+			"maxLength": 50,
+			"_db_meta": "VARCHAR2(50 CHAR)"
+		},
+		"shortName": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Short name of a partner.",
+			"maxLength": 50,
+			"_db_meta": "VARCHAR2(50 CHAR)"
+		},
+		"legalForm": {
+			"type": [
+				"integer",
+				"null"
+			],
+			"description": "Legal form of an organization.",
+			"maxLength": 10,
+			"_db_meta": "VARCHAR2(10 CHAR)"
+		},
+		"taxId": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Taxation number of an organization.",
+			"maxLength": 15,
+			"_db_meta": "VARCHAR2(15 CHAR)"
+		},
+		"vatNumber": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Vat number an organization.",
+			"maxLength": 40,
+			"_db_meta": "VARCHAR2(40 CHAR)"
+		},
+		"contact1": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Not used.",
+			"maxLength": 50,
+			"_db_meta": "VARCHAR2(50 CHAR)"
+		},
+		"dateOfBirth": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Date of person's death or organization's end of existing.",
+			"format": "date-time",
+			"_db_meta": "DATE"
+		},
+		"dateOfBirthLock": {
+			"type": "boolean",
+			"description": "N_DATE_OF_BIRTH_LOCK number"
+		},
+		"dateOfDeath": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Date of person's birth or start of organization's existing.",
+			"format": "date-time",
+			"_db_meta": "DATE"
+		},
+		"dateOfDeathLock": {
+			"type": "boolean",
+			"description": "N_DATE_OF_DEATH_LOCK number"
+		},
+		"fromDate": {
+			"type": "string",
+			"description": "Record creation date.",
+			"format": "date-time",
+			"_db_meta": "DATE NOT NULL"
+		},
+		"eventDate": {
+			"type": "string",
+			"description": "Date of record creation/change.",
+			"format": "date-time",
+			"_db_meta": "DATE NOT NULL"
+		},
+		"userid": {
+			"type": "string",
+			"description": "User name.",
+			"maxLength": 30,
+			"_db_meta": "VARCHAR2(30 CHAR) NOT NULL"
+		},
+		"partnerRef": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "External identifier of a partner.",
+			"maxLength": 20,
+			"_db_meta": "VARCHAR2(20 CHAR)"
+		},
+		"stateId": {
+			"type": "integer",
+			"description": "Partner's state in the Unius Partner Cleaning process",
+			"_db_meta": "NUMBER(10,0) NOT NULL",
+			"maximum": 9999999999
+		},
+		"notes": {
+			"type": [
+				"string",
+				"null"
+			],
+			"description": "Notes.",
+			"maxLength": 2000,
+			"_db_meta": "VARCHAR2(2000 CHAR)"
+		},
+		"partnerTypeEx": {
+			"type": "string",
+			"description": "Type of a partner. Replaced the S_PARTNER_TYPE field.",
+			"maxLength": 1,
+			"_db_meta": "VARCHAR2(1 CHAR) NOT NULL"
+		},
+		"isAgent": {
+			"type": "boolean",
+			"description": "N_MIDDLE_NAME_LOCK number"
+		},
+		"isReinsurer": {
+			"type": "boolean",
+			"description": "N_MIDDLE_NAME_LOCK number"
+		},
+		"sexLabel":{
+	  		"type" : ["string","null"]
+		},
+		"maritalStatusLabel":{
+	  		"type" : ["string","null"]
+		},
+		"legalFormLabel":{
+	  		"type" : ["string","null"]
+		},
+		"partnerTypeLabel":{
+	  		"type" : ["string","null"]
+		},
+		"afterTitleLabel":{
+	  		"type" : ["string","null"]
+		},
+		"occupationLabel":{
+	  		"type" : ["string","null"]
+		},
+		"beforeTitleLabel":{
+	  		"type" : ["string","null"]
+		},
+		"nationalityLabel":{
+	  		"type" : ["string","null"]
+		},
+		"employmentStatusLabel":{
+	 		"type" : ["string","null"]
+		}
+	}
+}

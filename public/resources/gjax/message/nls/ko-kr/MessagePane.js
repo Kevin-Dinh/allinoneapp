@@ -1,0 +1,3 @@
+define({
+	btnClose : 'kr: Close'
+});

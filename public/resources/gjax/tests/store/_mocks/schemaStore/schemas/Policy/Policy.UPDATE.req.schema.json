@@ -1,0 +1,17 @@
+{
+    "$schema":"http://json-schema.org/draft-03/schema",
+    "additionalProperties":{},
+    "type":"object", 
+    "properties":{
+        "dateBegin":{
+            "description":"Policy beginning effective date",
+            "format":"date-time",
+            "type":"string",
+            "required":true
+        },
+        "version":{
+            "type":"integer",
+            "required":false
+        }
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "_attachPoints":[
+        "titleNode",
+        "focusNode",
+        "iconNode",
+        "containerNode",
+        "valueNode"
+    ],
+    "_attachEvents":[
+        {
+            "_name":"click"
+        },
+        {
+            "_name":"click"
+        }
+    ],
+    "_refs":{
+        
+    },
+    "canConvertToLoggable":true,
+    "_atWatchHandles":{
+        
+    },
+    "_excludes":null,
+    "_inherited":{
+        "p":13
+    },
+    "_connects":[
+        
+    ],
+    "_supportingWidgets":[
+        
+    ],
+    "id":"b1",
+    "params":{
+        "id":"b1",
+        "type":"button"
+    },
+    "nameAttrSetting":"",
+    "ownerDocument":{
+        "__dojoToDomId":"1"
+    },
+    "ownerDocumentBody":{
+        
+    },
+    "domNode":{
+        "_cssState":"dijitButton"
+    },
+    "titleNode":{
+        
+    },
+    "focusNode":{
+        "$ref":"$[\"titleNode\"]"
+    },
+    "iconNode":{
+        
+    },
+    "containerNode":{
+        
+    },
+    "valueNode":{
+        
+    },
+    "_rendered":true,
+    "iconClass":"dijitNoIcon",
+    "showLabel":true,
+    "tabIndex":"0",
+    "type":"button",
+    "_stateClasses":[
+        "dijitButton"
+    ],
+    "_created":true,
+    "_onChangeActive":true,
+    "_started":true,
+    "x":{
+        "_attachPoints":[
+            "titleNode",
+            "focusNode",
+            "iconNode",
+            "containerNode",
+            "valueNode"
+        ],
+        "_attachEvents":[
+            {
+                "_name":"click"
+            },
+            {
+                "_name":"click"
+            }
+        ],
+        "_refs":{
+            
+        },
+        "canConvertToLoggable":true,
+        "_atWatchHandles":{
+            
+        },
+        "_excludes":null,
+        "_inherited":{
+            "p":13
+        },
+        "_connects":[
+            
+        ],
+        "_supportingWidgets":[
+            
+        ],
+        "id":"b2",
+        "params":{
+            "id":"b2",
+            "type":"button"
+        },
+        "nameAttrSetting":"",
+        "ownerDocument":{
+            "$ref":"$[\"ownerDocument\"]"
+        },
+        "ownerDocumentBody":{
+            "$ref":"$[\"ownerDocumentBody\"]"
+        },
+        "domNode":{
+            "_cssState":"dijitButton"
+        },
+        "titleNode":{
+            
+        },
+        "focusNode":{
+            "$ref":"$[\"x\"][\"titleNode\"]"
+        },
+        "iconNode":{
+            
+        },
+        "containerNode":{
+            
+        },
+        "valueNode":{
+            
+        },
+        "_rendered":true,
+        "iconClass":"dijitNoIcon",
+        "showLabel":true,
+        "tabIndex":"0",
+        "type":"button",
+        "_stateClasses":[
+            "dijitButton"
+        ],
+        "_created":true,
+        "_onChangeActive":true,
+        "_started":true,
+        "x":{
+            "$ref":"$"
+        }
+    }
+}

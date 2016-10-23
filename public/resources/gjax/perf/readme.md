@@ -1,0 +1,1 @@
+Stateful.watch and ModelRefController.watch are handled by Stateful extension

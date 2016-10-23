@@ -1,0 +1,171 @@
+/* layout */
+
+	.layout,
+	.layout .dijitTitlePaneContentInner {
+		overflow: hidden;
+	}
+	
+	.layout > .dijitTitlePane,
+	.layout > .dijitFieldset,
+	.layout .col,
+	.layout.dijitTitlePane .dijitTitlePane,
+	.layout.dijitFieldset .dijitFieldset,
+	.layout.dijitTitlePane .dijitFieldset {
+		float: left;
+		margin: 0 0 10px 4px;
+	}
+	
+	.layout > .dijitFieldset {
+		margin: 0 0 10px 8px;
+	}
+	
+	.layout > .dijitTitlePane:first-child,
+	.layout > .dijitFieldset:first-child,
+	.layout > .dijitTitlePaneContentOuter > .dijitReset > .dijitTitlePaneContentInner > .dijitFieldset:first-child,
+	.layout > .dijitTitlePaneContentOuter > .dijitReset > .dijitTitlePaneContentInner > div:first-child,
+	.layout .col:first-child  {
+		margin-left: 0 !important;
+	}
+	
+	.layout > .dijitFieldset:first-child {
+		margin-left: 2px !important;
+	}
+	
+/* fieldset in div */
+	
+	.layout.col2 > .dijitFieldset {
+		width: 546px;
+	}
+	
+	.layout.col3 > .dijitFieldset {
+		width: 356px;
+	}
+	
+	.layout.col4 > .dijitFieldset {
+		width: 260px;
+	}
+
+/* titlepane in div */
+
+	.layout.col2 > .dijitTitlePane {
+		width: 566px;
+	}
+	
+	.layout.col3 > .dijitTitlePane {
+		width: 374px;
+	}
+	
+	.layout.col4  > .dijitTitlePane {
+		width: 278.6px;
+	}
+	
+/* div in div */
+
+	.layout.col2 > .col {
+		width: 560px;
+	}
+	
+	.layout.col3 > .col {
+		width: 368.6px;
+	}
+	
+	.layout.col4 > .col {
+		width: 275px;
+	}
+		
+/* titlepane in titlepane */
+
+	.dijitTitlePane.col2 .dijitTitlePane {
+		width: 561px;
+	}
+	
+	.dijitTitlePane.col3 .dijitTitlePane {
+		width: 370.6px;
+	}
+	
+	.dijitTitlePane.col4 .dijitTitlePane {
+		width: 275px;
+	}
+	
+	
+/* fieldset in fieldset */
+	
+	.dijitTitlePane.col2 .dijitTitlePane {
+		width: 561px;
+	}
+	
+	.dijitTitlePane.col3 .dijitTitlePane {
+		width: 370.6px;
+	}
+	
+	.dijitTitlePane.col4 .dijitTitlePane {
+		width: 275px;
+	}
+	
+		
+/* fieldset in titlepane */
+
+	.dijitTitlePane.col2 .dijitFieldset {
+		width: 544px;
+	}
+	
+	.dijitTitlePane.col3 .dijitFieldset {
+		width: 353.6px;
+	}
+	
+	.dijitTitlePane.col4 .dijitFieldset {
+		width: 257.5px;
+	}
+	
+/* div in titlepane */
+
+	.dijitTitlePane.col2 .col {
+		width: 559px;
+	}
+	
+	.dijitTitlePane.col3 .col {
+		width: 368.6px;
+	}
+	
+	.dijitTitlePane.col4 .col {
+		width: 272.5px;
+	}
+	
+/* div in fieldset -- ok --*/
+
+	.dijitFieldset.col2 .col {
+		width: 553px;
+	}
+	
+	.dijitFieldset.col3 .col {
+		width: 363px;
+	}
+	
+	.dijitFieldset.col4 .col {
+		width: 273px;
+	}
+	
+/* col in cols inherited */
+
+	.col2 .col2 .col {
+		width: 270px;
+	}
+	
+	.col2 .col3 .col {
+		width: 176px;
+	}
+	
+	.col3 .col2 .col {
+		width: 176px;
+	}
+	
+	.col3 .col3 .col {
+		width: 113px;
+	}
+	
+	
+	
+	
+	
+	
+	

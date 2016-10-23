@@ -1,0 +1,26 @@
+<div>
+	<div class="dijitDialogPaneContentArea">
+		<span data-dojo-attach-point="iconSpan" class="icon"></span>
+		<span data-dojo-attach-point="contentSpan" class="message"></span>
+		
+		<div class="gjaxDialogBugReport gjaxHidden" data-dojo-attach-point="bugReportDiv">
+			<fieldset>
+				<legend  data-dojo-attach-point="bugReportLegend"></legend>
+				<pre data-dojo-attach-point="bugReportPre"></pre>
+				<button data-dojo-type="dijit/form/Button" data-dojo-attach-point="btnCopy" type="button">${_messages.btnCopyToClipboard}</button>
+			</fieldset>
+		</div>
+	</div>
+	<div class="dijitDialogPaneActionBar">
+		<span>
+			<button data-dojo-type="dijit/form/Button" data-dojo-attach-point="btnBugReport" data-dojo-attach-event="onClick:_toggleReport" data-dojo-props="hidden:true" type="button"></button>
+		</span>
+		<span>
+			<button data-dojo-type="dijit/form/Button" data-dojo-attach-point="btnYes" data-dojo-props="hidden:true" type="button"></button>
+			<button data-dojo-type="dijit/form/Button" data-dojo-attach-point="btnNo" data-dojo-props="hidden:true" type="button"></button>
+			<button data-dojo-type="dijit/form/Button" data-dojo-attach-point="btnCancel" data-dojo-props="hidden:true" type="button"></button>
+			<button data-dojo-type="dijit/form/Button" data-dojo-attach-point="btnOk" data-dojo-props="hidden:true" type="button"></button>
+		</span>
+	</div>
+		
+</div>

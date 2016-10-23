@@ -1,0 +1,3 @@
+define({
+	resetSort : 'Zrušit seřazení'
+});

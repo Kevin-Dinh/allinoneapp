@@ -1,0 +1,31 @@
+/* dojox calendar widget fixes*/
+
+.claro .dijitCalendarDayLabelTemplate {
+	border: 0px;
+	padding: 0px;
+	
+	background: #FFF url("../../dijit/themes/tundra/images/calendarDayLabel.png") repeat-x bottom;
+	font-weight: normal;
+	padding-top: .15em;
+	padding-bottom: 0;
+	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+	color: #293A4B;
+	
+	padding-left: 1.5px;
+	padding-right: 2px;
+}
+
+.claro .dojoxWidgetCalendar .dijitCalendarDateLabel{
+	padding: 1px 3px 0px 3px;
+/* 	border: 1px solid #FFF; */
+}
+
+.claro .dijitCalendarPreviousMonth, .claro .dijitCalendarDateTemplate{
+	border: 0px;
+}
+
+.dojoxWidgetCalendar .dijitCalendarDateLabel{
+	width: 16px;
+	height: 16px;
+}

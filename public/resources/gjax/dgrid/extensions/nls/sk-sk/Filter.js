@@ -1,0 +1,3 @@
+define({
+	resetFilter : 'Zrušiť filter'
+});

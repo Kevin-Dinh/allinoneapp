@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Document level comment -->
+<!-- TODO: NOTATION -->
+<!DOCTYPE root [
+    <!ENTITY ent1 "expanded ent1">
+]>
+<?pi1 ?>
+<root attribute="attribute.value">
+    element.text.1
+    <e1><![CDATA[cdata.content]]></e1>
+    <e2><!--comment.content--></e2>
+    <e3>&ent1;</e3>
+    element.text.2
+</root> 

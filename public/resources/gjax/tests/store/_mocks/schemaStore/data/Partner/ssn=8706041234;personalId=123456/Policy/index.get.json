@@ -1,0 +1,17 @@
+{
+    "headers":{
+        "Content-Range":"items 0-2/10"
+    },
+    "content":[
+        {
+            "a":1,
+            "policyId":123,
+            "otherId":456
+        },
+        {
+            "a":2,
+            "policyId":555,
+            "otherId":666
+        }
+    ]
+}

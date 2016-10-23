@@ -1,0 +1,3 @@
+define(({
+	noDataMessage : "Žiadne možnosti"
+}));

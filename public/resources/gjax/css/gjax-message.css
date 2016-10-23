@@ -1,0 +1,116 @@
+/* messages used as replacment of dialogs, 
+   types of messages are errors / warnings / infos / success,
+   sample is available in dm (design manual screen) */
+
+
+/* layout */
+
+	.gccs-message {
+		overflow: hidden;
+		color: white;
+		font-size: 11px;
+		margin-bottom: 4px;
+		padding: 1px 4px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		-khtml-border-radius: 3px;
+		list-style: none;
+	}
+	
+	.gjax-message-pane ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	/* if inside of message is link, sometimes like Refresh or Detail */
+	.gccs-message a {
+		text-decoration: underline;
+		color: white;
+	}
+
+	.gccs-message .dijitButton {
+		float: right;
+	}
+
+	.gccs-message .dijitButton .dijitButtonContents {
+		outline: 0;
+	}
+		
+	.gccs-message p {
+		padding: 6px 0 6px 32px;
+		margin: 0;
+		width: 863px;
+	}
+	
+	.gjax-message-pane .gccs-message .dijitButton .dijitButtonNode {
+		filter: none;
+		background: transparent;
+		border: 0;
+		width: 13px;
+		height: 18px;
+		box-shadow: none;
+		min-width: 0;
+	}
+
+	.gccs-message:before {
+		width: 25px;
+		height: 25px;
+		content: '';
+		background-image: url("_resources/messages-icons.png");
+		background-repeat: no-repeat;
+		background-position: 0;
+		float: left;
+	}
+	
+/* background colors for success, warning, error and info */
+
+	.gccs-message.success {
+		border: 1px solid #02863B;
+		background: #00b74f;
+	}
+
+	.gccs-message.warning {
+		border: 1px solid #C09000;
+		background: #fbbc01;
+	}
+	
+	.gccs-message.error {
+		border: 1px solid #AC0222;
+		background: #e4002b;
+	}
+	
+	.gccs-message.info {
+		border: 1px solid #007CA5;
+		background: #00A9E0;
+	}
+
+
+/* icons */
+
+	.gccs-message.warning:before{
+		background-position: -48px 2px;
+	}
+	
+	.gccs-message.error:before{
+		background-position: 2px 2px;
+	}
+	
+	.gccs-message.success:before{
+		background-position: -23px 2px;
+	}
+	
+	.gccs-message.info:before{
+		background-position: -72px 2px;
+	}
+
+
+/* close button */
+
+	.button-edition-delete-2 .dijitButtonContents { 
+		background-image: url("_resources/messages-icons.png");
+		background-position: -97px 0;
+		background-repeat: no-repeat;
+		height: 20px;
+		width: 20px;
+	} 

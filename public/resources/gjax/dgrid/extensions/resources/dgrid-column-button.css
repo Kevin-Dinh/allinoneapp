@@ -1,0 +1,48 @@
+.dgrid-edit-button {
+	background-image: url("./images/edit_white.png");
+}
+
+.dgrid-del-button {
+	background-image: url("./images/delete_white.png");
+}
+
+.dgrid-detail-button {
+	background-image: url("./images/detail_white.png");
+}
+
+.dgrid-show-document-button {
+	background-image: url("./images/show_document.png");
+}
+
+.dgrid-custom-button {
+	background-image: url("./images/new_window.png");
+}
+
+.dgrid-edit-button,
+.dgrid-del-button,
+.dgrid-custom-button, 
+.dgrid-detail-button,
+.dgrid-show-document-button {
+	width: 13px;
+	height: 13px;
+	float: left;
+}
+
+.dgrid-action-button .dijitButtonText{
+	display: none;
+}
+
+.dgrid .dijitNoIcon ~ .dijitButtonText {
+	display: block;
+}
+
+.claro .dgrid-cell .dijitButton .dijitButtonNode, 
+.claro .dgrid-cell .dijitDropDownButton .dijitButtonNode, 
+.claro .dgrid-cell .dijitComboButton .dijitButtonNode, 
+.claro .dgrid-cell .dijitToggleButton .dijitButtonNode {
+	padding: 2px 4px 4px 4px;
+}
+
+.dgrid-cell > .dijitButton{
+	margin: 0 0.2em;
+}

@@ -1,0 +1,93 @@
+{
+    "SMDVersion":"4.0",
+    "id":"policy.smd.json",
+    "description":"Identity encoding test",
+    "identity": [
+    	"${id}",
+    	"superId=${superId};hyperId=${hyperId}"
+    ],
+    "target":"/_mocks/schemaStore/data/EncodedIdsTest/",
+    "methods":{
+        "query":[
+            {
+                "emptyQueryAllowed":true,
+                "techName":"SearchTest",
+                "displayName":null
+            }
+        ],
+        "get":[
+            {
+                "techName":"GetTest",
+                "displayName":null
+            }
+        ],
+        "add":[
+            {
+                "techName":"AddTest",
+                "displayName":null,
+                "schema":{
+                    "additionalProperties":false,
+                    "properties":{
+                        "version":{
+                            "type":"integer",
+                            "required":false
+                        }
+                    }
+                }
+            }
+        ],
+        "put":[
+            {
+                "techName":"PutTest",
+                "displayName":null,
+                "schema":{
+                    "additionalProperties":false,
+                    "properties":{
+                        "version":{
+                            "type":"integer",
+                            "required":false
+                        }
+                    }
+                }
+            }
+        ],
+        "remove":[
+            {
+                "techName":"RemoveTest",
+                "displayName":null
+            }
+        ]
+    },
+    "subordinates":{
+        "Version":{
+            "id":"versionId",
+            "description":"Identity encoding test subordinatye",
+			"identity":"versionId",
+            "methods":{
+                "query":[
+                    {
+                        "emptyQueryAllowed":true,
+                        "techName":"SearchTestVersion",
+                        "displayName":null
+                    }
+                ],
+                "get":[
+                    {
+                        "techName":"GetTestVersion",
+                        "displayName":null
+                    }
+                ]
+            }
+        }
+    },
+    "customMethods": {
+		"Import": {
+			"forDetail": true,
+			"isList": false,
+			"techName": "Test Import",
+			"displayName": null,
+			"method": "get",
+			"payload": false
+		}
+	}
+}

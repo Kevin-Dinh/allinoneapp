@@ -1,0 +1,61 @@
+/**
+CSS file for dgrid and autoheight styling.
+Code taken from 
+https://github.com/SitePen/dgrid/blob/master/test/autoheight.html
+
+Selectors adjusted using class.
+
+To make your dgrid instance auto-height add auto-height class
+Include this css
+**/
+
+/* styles for auto-height */
+.dgrid.auto-height, .dgrid-grid.auto-height {
+	height: auto;
+/* 	max-height: 500px; */
+	overflow-y: auto;
+}
+
+.dgrid.auto-height .dgrid-scroller, .dgrid-grid.auto-height .dgrid-scroller {
+	position: relative;
+	overflow-y: hidden;
+}
+
+.has-ie-6 .dgrid.auto-height .dgrid-scroller, .has-ie-6 .dgrid-grid.auto-height .dgrid-scroller {
+	/* IE6 doesn't react properly to hidden on this page for some reason */
+	overflow-y: visible;
+}
+
+.dgrid.auto-height .dgrid-header-scroll, .dgrid-grid.auto-height .dgrid-header-scroll {
+	display: none; 
+	/* this rule hides unnecesary header column */
+	/* TODO: author of columnHider has to override this */
+}
+
+.dgrid.auto-height .dgrid-header, .dgrid-grid.auto-height .dgrid-header {
+	right: 0;
+}
+
+
+/* using class 'auto-height-max', grid will be automaticly resized until content has 500px, then scrool bar;
+when content has less than 500px, disabled scrollbar is still visible;
+to change maximal height may be changed by overiding the max-height rule on '.dgrid-scroller'*/
+.dgrid.auto-height-max, .dgrid-grid.auto-height-max {
+	height: auto;
+	overflow-y: auto;
+}
+
+.dgrid.auto-height-max .dgrid-scroller, .dgrid-grid.auto-height-max .dgrid-scroller {
+	position: relative;
+	overflow-y: scroll;
+	max-height: 500px;
+}
+
+.has-ie-6 .dgrid.auto-height-max .dgrid-scroller, .has-ie-6 .dgrid-grid.auto-height-max .dgrid-scroller {
+	/* IE6 doesn't react properly to hidden on this page for some reason */
+	overflow-y: visible;
+}
+
+.dgrid.auto-height-max .dgrid-header-scroll, .dgrid-grid.auto-height-max .dgrid-header-scroll {
+	display: none;
+}

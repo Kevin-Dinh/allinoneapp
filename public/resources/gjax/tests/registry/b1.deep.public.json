@@ -1,0 +1,147 @@
+{
+    "canConvertToLoggable":true,
+    "id":"b1",
+    "params":{
+        "id":"b1",
+        "type":"button"
+    },
+    "nameAttrSetting":"",
+    "ownerDocument":{
+        
+    },
+    "ownerDocumentBody":{
+        
+    },
+    "domNode":{
+        
+    },
+    "titleNode":{
+        
+    },
+    "focusNode":{
+        "$ref":"$[\"titleNode\"]"
+    },
+    "iconNode":{
+        
+    },
+    "containerNode":{
+        
+    },
+    "valueNode":{
+        
+    },
+    "iconClass":"dijitNoIcon",
+    "showLabel":true,
+    "tabIndex":"0",
+    "type":"button",
+    "x":{
+        "canConvertToLoggable":true,
+        "id":"b2",
+        "params":{
+            "id":"b2",
+            "type":"button"
+        },
+        "nameAttrSetting":"",
+        "ownerDocument":{
+            "$ref":"$[\"ownerDocument\"]"
+        },
+        "ownerDocumentBody":{
+            "$ref":"$[\"ownerDocumentBody\"]"
+        },
+        "domNode":{
+            
+        },
+        "titleNode":{
+            
+        },
+        "focusNode":{
+            "$ref":"$[\"x\"][\"titleNode\"]"
+        },
+        "iconNode":{
+            
+        },
+        "containerNode":{
+            
+        },
+        "valueNode":{
+            
+        },
+        "iconClass":"dijitNoIcon",
+        "showLabel":true,
+        "tabIndex":"0",
+        "type":"button",
+        "x":{
+            "canConvertToLoggable":true,
+            "id":"b1",
+            "params":{
+                "$ref":"$[\"params\"]"
+            },
+            "nameAttrSetting":"",
+            "ownerDocument":{
+                "$ref":"$[\"ownerDocument\"]"
+            },
+            "ownerDocumentBody":{
+                "$ref":"$[\"ownerDocumentBody\"]"
+            },
+            "domNode":{
+                "$ref":"$[\"domNode\"]"
+            },
+            "titleNode":{
+                "$ref":"$[\"titleNode\"]"
+            },
+            "focusNode":{
+                "$ref":"$[\"titleNode\"]"
+            },
+            "iconNode":{
+                "$ref":"$[\"iconNode\"]"
+            },
+            "containerNode":{
+                "$ref":"$[\"containerNode\"]"
+            },
+            "valueNode":{
+                "$ref":"$[\"valueNode\"]"
+            },
+            "iconClass":"dijitNoIcon",
+            "showLabel":true,
+            "tabIndex":"0",
+            "type":"button",
+            "x":{
+                "$ref":"$[\"x\"]"
+            }
+        }
+    },
+    "baseClass":"dijitButton",
+    "templateString":"<span class=\"dijit dijitReset dijitInline\" role=\"presentation\"\r\n\t><span class=\"dijitReset dijitInline dijitButtonNode\"\r\n\t\tdata-dojo-attach-event=\"ondijitclick:__onClick\" role=\"presentation\"\r\n\t\t><span class=\"dijitReset dijitStretch dijitButtonContents\"\r\n\t\t\tdata-dojo-attach-point=\"titleNode,focusNode\"\r\n\t\t\trole=\"button\" aria-labelledby=\"${id}_label\"\r\n\t\t\t><span class=\"dijitReset dijitInline dijitIcon\" data-dojo-attach-point=\"iconNode\"></span\r\n\t\t\t><span class=\"dijitReset dijitToggleButtonIconChar\">&#x25CF;</span\r\n\t\t\t><span class=\"dijitReset dijitInline dijitButtonText\"\r\n\t\t\t\tid=\"${id}_label\"\r\n\t\t\t\tdata-dojo-attach-point=\"containerNode\"\r\n\t\t\t></span\r\n\t\t></span\r\n\t></span\r\n\t><input ${!nameAttrSetting} type=\"${type}\" value=\"${value}\" class=\"dijitOffScreen\"\r\n\t\tdata-dojo-attach-event=\"onclick:_onClick\"\r\n\t\ttabIndex=\"-1\" role=\"presentation\" aria-hidden=\"true\" data-dojo-attach-point=\"valueNode\"\r\n/></span>\r\n",
+    "declaredClass":"dijit.form.Button",
+    "label":"",
+    "name":"",
+    "alt":"",
+    "value":"",
+    "aria-label":"focusNode",
+    "disabled":false,
+    "intermediateChanges":false,
+    "scrollOnFocus":true,
+    "hovering":false,
+    "active":false,
+    "templatePath":null,
+    "searchContainerNode":true,
+    "lang":"",
+    "dir":"",
+    "class":"",
+    "style":"",
+    "title":"",
+    "tooltip":"",
+    "srcNodeRef":null,
+    "attributeMap":{
+        
+    },
+    "focused":false,
+    "dojoAttachEvent":"",
+    "dojoAttachPoint":"",
+    "hidden":false,
+    "selected":false,
+    "closable":false,
+    "showTitle":true,
+    "dataBindAttr":"data-mvc-bindings",
+    "data-mvc-bindings":""
+}

@@ -1,0 +1,17 @@
+.claro.gjax .gjaxValidationTextarea {
+	padding-right: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.claro.gjax .gjaxValidationTextareaError {
+	background-image: url("./images/error-textarea.png"); 
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+}
+
+.claro.gjax .gjaxValidationTextareaWarning {
+	background-image: url("./images/warning-textarea.png"); 
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+}

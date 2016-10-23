@@ -1,0 +1,244 @@
+<TransEnv
+	xmlns="http://schemas.gratex.com/ISUP/ClaimsMgmt/getLossOut_transXML.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tid="0"
+	srvrTransDate="2016-02-09T14:49:56.885Z">
+	<Loss ID_LOSS="LOSS_488">
+		<s_ipn>110201000315</s_ipn>
+		<REF_PERSON>PERSON_653</REF_PERSON>
+		<t_refperson>2010-09-02T12:08:49.737Z</t_refperson>
+		<s_personname>Papučka Pulsifer</s_personname>
+		<s_personid>2222222222</s_personid>
+		<nl_pe_typextid_id>0</nl_pe_typextid_id>
+		<nl_injuredrole_id>1</nl_injuredrole_id>
+		<REF_EMPLOYER>EMPLOYER_4</REF_EMPLOYER>
+		<t_refemployer>2010-09-02T12:08:49.737Z</t_refemployer>
+		<s_employername>Bombarér a.s.</s_employername>
+		<s_employerid>30222583</s_employerid>
+		<nl_emp_typextid_id>2</nl_emp_typextid_id>
+		<REF_RESPONSIBLE>EMPLOYER_4</REF_RESPONSIBLE>
+		<t_refresponsible>2010-09-02T12:08:49.737Z</t_refresponsible>
+		<s_responsiblename>Bombarér a.s.</s_responsiblename>
+		<s_responsibleid>30222583</s_responsibleid>
+		<nl_resp_typextid_id>2</nl_resp_typextid_id>
+		<d_occurance>2007-07-11</d_occurance>
+		<nl_lossclass_id>1</nl_lossclass_id>
+		<nl_benefitsrc_id>1</nl_benefitsrc_id>
+		<s_note>xcvxcvxcv</s_note>
+		<nl_fatality>0</nl_fatality>
+		<d_death xsi:nil="true"></d_death>
+		<nl_lossfatality>0</nl_lossfatality>
+		<g_officer>B404999CD02646D681D5CE04249B2EAC</g_officer>
+		<t_inception>2010-09-02T12:08:49.737Z</t_inception>
+		<nd_attr_rz>100</nd_attr_rz>
+		<t_occurance>2007-07-11T09:11:00.667Z</t_occurance>
+		<d_announce>2010-07-12</d_announce>
+		<nl_nonwork>0</nl_nonwork>
+		<nl_floss>0</nl_floss>
+		<nl_damagedprof_id>1</nl_damagedprof_id>
+		<LossDocList>
+			<LossDoc ID_LOSSDOC="LOSSDOC_487">
+				<nl_doctype_id>41</nl_doctype_id>
+				<s_note>vcvxcvcx</s_note>
+				<d_append>2010-09-02</d_append>
+				<dt_perform xsi:nil="true"></dt_perform>
+				<s_medicode xsi:nil="true"></s_medicode>
+				<sv_mediname xsi:nil="true"></sv_mediname>
+			</LossDoc>
+		</LossDocList>
+		<IndTypeLossList>
+			<IndTypeLoss ID_INDTYPELOSS="INDTYPELOSS_562">
+				<nl_indtype_id>45</nl_indtype_id>
+				<REF_PERSON>PERSON_653</REF_PERSON>
+				<t_refperson>2010-09-02T12:11:38.903Z</t_refperson>
+				<s_author_name>Papučka Pulsifer</s_author_name>
+				<s_author_id>2222222222</s_author_id>
+				<nl_author_extid>0</nl_author_extid>
+				<nl_bof_id>1</nl_bof_id>
+				<g_officer>B404999CD02646D681D5CE04249B2EAC</g_officer>
+				<g_adjuster>B404999CD02646D681D5CE04249B2EAC</g_adjuster>
+				<nl_itlstt_id>5</nl_itlstt_id>
+				<nl_processhq>0</nl_processhq>
+				<t_inception>2010-09-02T12:11:38.903Z</t_inception>
+			</IndTypeLoss>
+		</IndTypeLossList>
+		<Payroldpt ID_PAYROLDPT="PAYROLDPT_5">
+			<REF_EMPLOYER>EMPLOYER_4</REF_EMPLOYER>
+			<s_subjectname>Bombarér a.s.</s_subjectname>
+			<nl_nacecode_id>173</nl_nacecode_id>
+			<s_nacecode8>19</s_nacecode8>
+			<nl_sknace_id>2</nl_sknace_id>
+			<s_sknace>01111</s_sknace>
+			<d_found>1993-03-03</d_found>
+			<d_expir xsi:nil="true"></d_expir>
+			<Address ID_ADDRESS="ADDRESS_3">
+				<nl_addrtype_id>3</nl_addrtype_id>
+				<s_street>Vianočná</s_street>
+				<s_strnumber>48/789</s_strnumber>
+				<s_town>Modra</s_town>
+				<s_postcode>90200</s_postcode>
+				<s_postoff>Modra</s_postoff>
+				<s_county>Pezinok</s_county>
+				<nl_country_id>193</nl_country_id>
+			</Address>
+		</Payroldpt>
+		<FLossList>
+		</FLossList>
+		<Person ID_PERSON="PERSON_653">
+			<dt_rtmage xsi:nil="true"></dt_rtmage>
+			<dt_rtm2 xsi:nil="true"></dt_rtm2>
+		</Person>
+	</Loss>
+	<enumTypExtIdList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumTypExtId>
+			<ID_TYPEXTID>0</ID_TYPEXTID>
+			<S_DESCRIPT>Rodné číslo</S_DESCRIPT>
+		</enumTypExtId>
+		<enumTypExtId>
+			<ID_TYPEXTID>2</ID_TYPEXTID>
+			<S_DESCRIPT>IČO</S_DESCRIPT>
+		</enumTypExtId>
+	</enumTypExtIdList>
+	<enumDamagedRoleList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumDamagedRole>
+			<ID_DAMROLE>1</ID_DAMROLE>
+			<S_DESCRIPT>fyzická osoba v pracovnom pomere</S_DESCRIPT>
+		</enumDamagedRole>
+	</enumDamagedRoleList>
+	<enumLossClassList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumLossClass>
+			<ID_LOSSCLASS>1</ID_LOSSCLASS>
+			<NL_PRODUCT_ID>11</NL_PRODUCT_ID>
+			<S_CODE>PÚ</S_CODE>
+			<S_DESCRIPT>Pracovný úraz</S_DESCRIPT>
+		</enumLossClass>
+	</enumLossClassList>
+	<enumBenefitSourceList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumBenefitSource>
+			<ID_BENEFITSRC>1</ID_BENEFITSRC>
+			<S_CODE>PÚP</S_CODE>
+			<S_DESCRIPT>Poistné na úrazové poistenie</S_DESCRIPT>
+			<NL_PRODUCT_ID>11</NL_PRODUCT_ID>
+		</enumBenefitSource>
+	</enumBenefitSourceList>
+	<enumClaimsOfficerList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumClaimsOfficer>
+			<ID>B404999CD02646D681D5CE04249B2EAC</ID>
+			<NAME>isup_all_1</NAME>
+			<ACCOUNT_NAME></ACCOUNT_NAME>
+		</enumClaimsOfficer>
+	</enumClaimsOfficerList>
+	<enumClaimsAdjusterList
+		xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd" option="_s">
+		<enumClaimsAdjuster>
+			<ID>B404999CD02646D681D5CE04249B2EAC</ID>
+			<NAME>isup_all_1</NAME>
+			<ACCOUNT_NAME></ACCOUNT_NAME>
+		</enumClaimsAdjuster>
+	</enumClaimsAdjusterList>
+	<enumIndTypeList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumIndType>
+			<ID_INDTYPE>45</ID_INDTYPE>
+			<S_DESCRIPT>úrazový príplatok (nový)</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>ÚprN</S_ABBR>
+			<S_ACCOUNT>9272101</S_ACCOUNT>
+			<NL_RENTCAT_ID>3</NL_RENTCAT_ID>
+		</enumIndType>
+	</enumIndTypeList>
+	<enumBofList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumBof>
+			<ID_BOF>1</ID_BOF>
+			<S_CODE>020</S_CODE>
+			<S_DIRNAME>Dr. Ing. Roman Chotár</S_DIRNAME>
+			<S_STREET>Záhradnícka</S_STREET>
+			<S_NUMBER>31</S_NUMBER>
+			<S_TOWN>Bratislava 1</S_TOWN>
+			<S_POSTCODE>829 02</S_POSTCODE>
+			<NL_COUNTRY_ID>193</NL_COUNTRY_ID>
+			<S_BOFNAME>Bratislava</S_BOFNAME>
+			<S_IDVOJ>20044</S_IDVOJ>
+			<NL_BOFROLE_ID>3</NL_BOFROLE_ID>
+			<NL_VALID>1</NL_VALID>
+		</enumBof>
+	</enumBofList>
+	<enumDocTypeList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumDocType>
+			<ID_DOCTYPE>41</ID_DOCTYPE>
+			<S_DESCRIPT>Iná dokumentácia</S_DESCRIPT>
+			<NL_LOSSDOC>1</NL_LOSSDOC>
+		</enumDocType>
+	</enumDocTypeList>
+	<enumITLStateList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumITLState>
+			<ID_ITLSTT>5</ID_ITLSTT>
+			<S_DESCRIPT>Dávka priznaná</S_DESCRIPT>
+		</enumITLState>
+	</enumITLStateList>
+	<enumNaceCodeList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumNaceCode>
+			<LOOKUP>173</LOOKUP>
+			<ID_NACECODE>173</ID_NACECODE>
+			<S_DESCRIPT>Výroba pletenej spodnej bielizne</S_DESCRIPT>
+			<S_CODE>17740</S_CODE>
+			<ND_TARIFF>0.8</ND_TARIFF>
+			<D_FROM>1998-12-02</D_FROM>
+		</enumNaceCode>
+	</enumNaceCodeList>
+	<enumSKNaceList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumSKNace>
+			<LOOKUP>2</LOOKUP>
+			<ID_SKNACE>2</ID_SKNACE>
+			<S_SKNACE>01110</S_SKNACE>
+			<S_DESCRIPT>Pestovanie obilnín (okrem ryže), strukovín a olejnatých
+				semien</S_DESCRIPT>
+			<ND_TARIFF>0.8</ND_TARIFF>
+			<D_FROM>2008-06-18</D_FROM>
+		</enumSKNace>
+	</enumSKNaceList>
+	<enumCountryList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumCountry>
+			<ID_COUNTRY>193</ID_COUNTRY>
+			<S_CNTRNAME>Slovensko</S_CNTRNAME>
+			<S_CNTRABB>SK</S_CNTRABB>
+			<S_CNTRNAME_EN>Slovakia</S_CNTRNAME_EN>
+		</enumCountry>
+	</enumCountryList>
+	<enumAddrTypeList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumAddrType>
+			<ID_ADDRTYPE>3</ID_ADDRTYPE>
+			<S_DESCRIPTION>sídlo organizácie</S_DESCRIPTION>
+		</enumAddrType>
+	</enumAddrTypeList>
+	<enumProfessionList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+		<enumProfession>
+			<LOOKUP>1</LOOKUP>
+			<ID_PROFESSION>1</ID_PROFESSION>
+			<S_CODE>000000</S_CODE>
+			<S_DESCRIPT>Nedefinovaný</S_DESCRIPT>
+			<D_FROM>1900-01-01</D_FROM>
+		</enumProfession>
+	</enumProfessionList>
+	<enumFLossDcsnList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+	</enumFLossDcsnList>
+	<enumEUFormularList xmlns="http://schemas.gratex.com/ISUP/Enums/Enums.xsd"
+		option="_s">
+	</enumEUFormularList>
+</TransEnv>

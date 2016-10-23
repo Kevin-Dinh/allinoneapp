@@ -1,0 +1,78 @@
+{
+	"SMDVersion":"4.0",
+	"id":"partner.smd.json",
+	"description":"Policy services descriptor",
+	"identity":[
+		"notWorkingIdentity=${notWorkingIdentity};otherId=${otherId}",
+		"ssn=${ssn};personalId=${personalId}"
+	],
+	"target":"/_mocks/schemaStore/data/Partner/",
+	"methods":{
+		"query":[
+			{
+				"emptyQueryAllowed":false,
+				"techName":"SearchPartner",
+				"displayName":null,
+				"templates":{
+					"default":"eq(foo,*)&sort(-a)"
+				}
+				
+			}
+			
+		],
+		"get":[
+			{
+				"techName":"GetPartner",
+				"displayName":null
+			}
+			
+		],
+		"add":[
+			{
+				"techName":"AddPartner",
+				"displayName":null,
+				"schema":{
+					"additionalProperties":false,
+					"properties":{
+						"firstName":{
+							"type":"string",
+							"required":true
+						},
+						"lastName":{
+							"type":"string",
+							"required":true
+						},
+						"age":{
+							"type":"integer",
+							"default":18
+						}
+						
+					}
+					
+				}
+				
+			}
+			
+		]
+		
+	},
+	"subordinates":{
+		"Policy":{
+			"$subRef":"./policy.smd.json"
+		},
+		"Address":{
+			"id":"partnerAddressSmd",
+			"description":"Policy storno status service descriptor",
+			"subordinates":{
+				"History":{
+					"id":"partnerAddressHistorySmd",
+					"description":"Policy storno status service descriptor"
+					
+				}
+				
+			}
+			
+		}
+		
+	}
+}

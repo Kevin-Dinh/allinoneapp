@@ -1,0 +1,449 @@
+@import url("../form/calendar/resources/_CalendarTimeView.css");
+
+@import url('../form/resources/_WarningMixin.css');
+
+@import url('../form/resources/_ValidationTextareaMixin.css');
+
+@import url('./fixDojoxCalendar.css');
+
+/* todo broken button bar on popup */
+.claro .dijitDialogPaneActionBar {
+	background-color: #FFF;
+	border: 1px solid #DDD;
+}
+
+/* layout */
+
+/* visual margins around of inputs, labels and selects */
+.dijitTextBox,.dijitSelect {
+	margin: 3px;
+}
+
+/* label needs different margin because has mandatory star */
+label {
+	margin-right: 7px;
+}
+
+/* all inputs has set width (different from origin dijits sizes) */
+.dijitTextBox {
+	width: 113px;
+}
+
+/* the same like above, but select needs to bigger width
+	than textbox because is implemeted like a table */
+.dijitSelect {
+	width: 116px;
+}
+
+/* all borders in readonly fields have different border color */
+.claro .dijitTextBoxReadOnly {
+	border-color: #D8D8D8;
+	background-color: #FDFDFD;
+}
+
+body.claro .dijitComboBoxReadOnly .dijitButtonNode,
+body.claro .dijitSpinnerReadOnly .dijitArrowButton {
+	background-color: #EFEFEF;
+	background-image: url("../../dijit/themes/claro/images/standardGradient.png");
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+	background-image: -o-linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+	_background-image: none;
+}
+
+/* long items in combobox */
+.dijitMenuItem {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	max-width: 600px;
+	overflow: hidden;
+}
+
+/* default width of clickable part in select is wide
+	(in compare to combobox) */
+.claro .dijitSelect .dijitArrowButtonContainer {
+	width: 16px;
+}
+
+/* invisible fields styling */
+
+.gjaxInvisible {
+	visibility: hidden !important;
+}
+
+/* mandatory fields styling */
+abbr.req {
+	border-bottom: 0;
+	color: red;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 9px;
+}
+
+/* because :before element is position:absolute, scrolling fix */
+.gjaxRequired {
+	position: relative;
+}
+
+/* set default vertical alignment to textarea labels */
+.gjaxTextAreaLabel {
+	vertical-align: top;
+}
+
+/* style textarea (native) placeholder to look like dojo */
+/* NOTE: these selectors don't work when combined */
+textarea::-webkit-input-placeholder{ /*chrome*/
+	color: #AAAAAA;
+	font-style: italic;
+	text-overflow: ellipsis;
+}
+textarea:-ms-input-placeholder { /*ie*/
+	color: #AAAAAA;
+	font-style: italic;
+	text-overflow: ellipsis;
+}
+textarea::-moz-placeholder { /*firefox*/
+	color: #AAAAAA;
+	font-style: italic;
+	text-overflow: ellipsis;
+}
+
+/* required field based on :before */
+.gjaxRequired:before {
+	content: attr(data-required-mark);
+	position: absolute;
+	color: red;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	top: 3px;
+	left: -15px;
+}
+
+/* hide asterisk before disabled inputs */
+.dijitDisabled.gjaxRequired:before {
+	display: none;
+}
+
+/* titlepanes and fieldsets has on bottom space, visual reasons, position beacause of absolutely positioned closFieldset icon */
+.dijitTitlePane,.dijitFieldset {
+	margin-bottom: 10px;
+	position: relative;
+}
+
+/* use together with gjax/extensions/select */
+.gjaxOptionElipsed {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 100%;
+}
+
+/* ellipsis class for labels */
+/* if any parrent has class .format, we can redefined default html behavior of labels */
+.format label {
+	display: inline-block;
+	text-align: left;
+}
+
+/* do not display required field */
+.ellipsis abbr.req {
+	display: none;
+}
+
+.ellipsis label {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.claro .dijitTitlePaneContentInner {
+	padding: 5px;
+}
+
+.dijitReadOnly .dijitInputInner,.dijitReadOnly.dijitTextBoxReadOnly {
+	color: gray;
+}
+
+.dj_webkit .claro textarea.dijitTextAreaDisabled {
+	color: #818181;
+}
+
+.dijitAccordionInnerContainer,.dijitTextBox {
+	-webkit-border-bottom: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.dijitTab {
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.claro .dijitTabListContainer-top .tabStripButton.dijitTabDisabled {
+	background: #E5E5E5;
+	color: #ACACAE;
+}
+
+.claro .dijitToggleButton .dijitCheckBoxIcon {
+	background-image: url("./_resources/check-icon.png");
+	width: 13px;
+	margin-left: 2px;
+}
+
+/* .buttons */
+.buttons {
+	overflow: hidden;
+}
+
+.buttons.right {
+	text-align: right;
+}
+
+.buttons.center {
+	text-align: center;
+}
+
+/* horizontal checked multiselect */
+.dojoxMultiSelectItemBox.dijitFocused ~ .dojoxMultiSelectItemLabel {
+	outline: 1px dotted #494949;/*same as claro for dijitFocusedLabel*/
+}
+
+.claro .dojoxCheckedMultiSelect {
+	margin: 4px;
+	margin-top: 0;
+}
+
+.claro .dojoxCheckedMultiSelect .dojoxCheckedMultiSelectWrapper .dojoxMultiSelectItem {
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 0px;
+}
+
+.dj_ie .dojoxCheckedMultiSelectWrapper,.dj_webkit .dojoxCheckedMultiSelectWrapper {
+	padding-right: 0px;
+}
+
+.claro .dojoxCheckedMultiSelectWrapper .dijitCheckBox,.claro .dojoxCheckedMultiSelectWrapper .dijitCheckBoxIcon {
+	margin: 0 4px 0 0;
+}
+
+.claro .dojoxCheckedMultiSelect .dojoxCheckedMultiSelectWrapper {
+	overflow: hidden;
+	height: auto;
+	padding: 0;
+}
+
+.claro .dojoxCheckedMultiSelect .dijit.dojoxCheckedMultiSelectWrapper {
+	border: none;
+	background: transparent;
+}
+
+/* vertical multiselect */
+.claro .dojoxCheckedMultiSelect.dojoxCheckedMultiSelectVertical  .dojoxCheckedMultiSelectWrapper .dojoxMultiSelectItem {
+	display: block;
+}
+
+/* radio button, checkbox margin */
+.claro .dijitCheckBox,.claro .dijitToggleButton .dijitCheckBoxIcon {
+	margin: 3px;
+	vertical-align: middle;
+}
+
+/* readonly checkboxes */
+.claro .dijitCheckBoxReadOnly {
+	background-position: -75px;
+}
+
+.claro .dijitCheckBoxCheckedReadOnly {
+	background-position: -60px;
+}
+
+/* readonly radio button */
+.claro .dijitRadioReadOnly {
+	background-position: -165px;
+}
+
+.claro .dijitRadioCheckedReadOnly {
+	background-position: -150px;
+}
+
+/* dialog */
+.claro .dijitDialogTitleBar {
+	border-bottom: solid #759DC0;
+	border-width: 1px 0;
+}
+
+.claro .dijitDialogPaneContent {
+	border-top: none;
+	margin: 0 auto;
+	overflow: hidden; /* clearfix */
+}
+
+.templatedDialogContainerWrapper {
+	background: white;
+}
+
+.modeless_underlay {
+	display: none;
+}
+
+/* disabled links */
+.gjaxLinkDisabled {
+	text-decoration: none;
+	color: initial;
+}
+
+/* bugfixes */
+
+/* http://bugs.dojotoolkit.org/ticket/16857
+	dojox/form/multiselect has on hover bad path to images, so 404 */
+.gjax .dojoxCheckedMultiSelectHover .dojoxCheckedMultiSelectWrapper {
+	background-image: none;
+}
+
+/* add close icon to closable titlepane */
+.dijitTitlePaneClosable .dijitTitlePaneCloseIcon {
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	cursor: pointer;
+	background: url("./_resources/global-close-icon.png") no-repeat;
+	background-position: 0px 0px;
+	top: 6px;
+	right: 6px;
+}
+
+.dijitTitlePaneClosable .dijitTitlePaneCloseIconHover {
+	background-position: -19px 0;
+}
+
+.dijitFieldset.dijitTitlePaneClosable .dijitTitlePaneCloseIcon {
+	background-image: url("_resources/global-close-icon.png");
+	background-position: 0px 0px;
+	background-color: transparent;
+	right: 6px;
+	top: 6px;
+}
+
+.dijitFieldset.dijitTitlePaneClosable .dijitTitlePaneCloseIconHover {
+	background-position: -19px 0;
+}
+
+/* add margin to fieldset arrow */
+.claro .dijitFieldset .dijitArrowNode {
+	margin-left: 4px;
+}
+
+/* remove arrow on non toggleable fieldsets/titlepanes */
+.dijitFieldsetTitleFixedOpen .dijitArrowNode,.dijitTitlePaneTitleFixedOpen .dijitArrowNode {
+	display: none;
+}
+
+.dijitFieldsetTitleFixedOpen .dijitFieldsetLegendNode {
+	cursor: default;
+}
+
+/* bug reported - will be fixed in 1.9 */
+/* fieldset legend cursor bug*/
+.dijitFieldsetTitleOpen,.dijitFieldsetTitleClosed {
+	cursor: pointer;
+}
+
+/* dgrid no data message, dgrid loading, dgrid error */
+.dgrid-no-data,.dgrid-error,.dgrid-loading .dgrid-below,.dgrid-loading .dgrid-above  {
+	padding: 10px 0;
+	position: relative;
+	text-align: center;
+	background: white;
+}
+
+.dgrid-no-data span,.dgrid-loading span {
+	position: relative;
+}
+
+.dgrid-loading span:before {
+	content: "";
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	margin-left: -25px;
+	background-image: url("../../dijit/icons/images/loadingAnimation.gif");
+}
+
+.dgrid-error {
+	color: red;
+}
+
+.gjax .dgrid-sort-arrow {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.claro .dgrid .dgrid-row-odd.dgrid-row-highlighted,.claro .dgrid .dgrid-row-even.dgrid-row-highlighted {
+	background-color: #F0F024;
+}
+
+/* FIX: loading icon, while tree is loading its children */
+.claro .dijitTreeExpando.dijitTreeExpandoLoading {
+	background-image: url("../../dijit/icons/images/loadingAnimation.gif");
+	background-position: 0 0;
+	height: 20px;
+	width: 20px;
+}
+
+/* make sure noone overrides error input border */
+/* added !important to defaul claro */
+.claro .dijitSelectError,.claro .dijitSelectError .dijitButtonContents,.claro .dijitTextBoxError,.claro .dijitTextBoxError .dijitButtonNode {
+	border-color: #d46464 !important;
+}
+
+/* dnd items in grid */
+.dgrid .dojoDndItem {
+	padding: 0;
+	border: 0;
+}
+
+/* fix for TemplatedFloatingPane inherited from View*/
+.dojoxFloatingPane.dijitContentPane {
+	padding: 0; /* no padding for dojoxFloatingPane, even when marked with dijitContentPane */
+}
+
+/* AR: dojo changed behaviour of number textboxes in 1.12, which we do not want to change globaly
+ so overriden using same classes, relaying on fact that this css is loaded later
+ other applications may override behaviour for numbers */
+.dijitNumberTextBox input.dijitInputInner,
+.dijitCurrencyTextBox input.dijitInputInner,
+.dijitSpinner input.dijitInputInner {
+       text-align: left;
+}
+
+/* AR: dojo changed behaviour of dijitHidden in 1.12 it uses visibility + position, instead of previously used display
+ we used dijitHidden also on other places that dojo (stack/tab container only) and this change has broken
+ our layout on multiple places 
+ so we introduced own class, and all usage of dijitHidden in our codes should be replaced */
+.gjaxHidden {
+	display: none !important;
+}
+
+/* MB quickfix, new behaviour of dijitHidden in 1.12 */
+.dijitHidden {
+	display: none !important;
+}
+
+/* AR: ported from unius */
+/* Remove clear field 'X' button in IE10+, it causes errors with combo boxes */
+.dijitComboBox input[type=text]::-ms-clear {
+  width : 0;
+  height: 0;
+}

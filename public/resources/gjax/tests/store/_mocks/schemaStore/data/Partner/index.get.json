@@ -1,0 +1,12 @@
+{
+    "headers":{
+        "Content-Range":"items 0-1/10"
+    },
+    "content":[
+        {
+            "firstName":"John",
+            "ssn":"8706041234",
+            "personalId":123456
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "headers": {
+        "Content-Range": "items 0-2/10"
+    },
+    "content": [{
+        "statusId": 1
+    }, {
+        "statusId": 2
+    }]
+}

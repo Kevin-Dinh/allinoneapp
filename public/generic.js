@@ -5,7 +5,7 @@ $( "#searchWeather" ).bind( "click", function() {
 	getWeather($information.url1, $param, function(weatherData){
 		createDataTable(weatherData);
 	}, function(errorHandler){
-		typeof errorHandler.responseJSON != "undefined" ? $("#errorHandlerForWeatherTab").text(errorHandler.responseJSON.detail) : $("#errorHandlerForWeatherTab").text("Invalid input!");
+		typeof errorHandler.responseJSON !== 'undefined' ? $("#errorHandlerForWeatherTab").text(errorHandler.responseJSON.detail) : $("#errorHandlerForWeatherTab").text("Invalid input!");
 		
 	})
 });
@@ -56,7 +56,7 @@ $app.controller('countriesCtrl', function($scope, $http) {
 				}
 		 }, function (errorHandler){
 		
-		 	typeof errorHandler.responseJSON != "undefined" ? $("#errorHandler").text(errorHandler.responseJSON.detail) : $("#errorHandler").text("Invalid input!");
+		 	typeof errorHandler.responseJSON !== 'undefined' ? $("#errorHandler").text(errorHandler.responseJSON.detail) : $("#errorHandler").text("Invalid input!");
 		 });
 		
    	};

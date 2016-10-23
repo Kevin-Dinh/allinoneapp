@@ -1,0 +1,14 @@
+.gjax-dgrid-total {
+	padding: 2px 3px;
+	background: #DDD;
+	height: 17px;
+}
+
+.gjax-dgrid-total-text {
+	display: inline-block;
+	min-width: 130px;
+}
+
+.gjax-dgrid-total-selected {
+	display: inline-block;
+}

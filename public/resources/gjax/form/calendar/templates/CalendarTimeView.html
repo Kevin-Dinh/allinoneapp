@@ -1,0 +1,45 @@
+<div class="dijitCalendarTime" data-dojo-attach-point="dayContainer">
+
+	<!-- Use same style as header, but to achieve different behaviour, we must implement is ourselves -->
+	<div class="dojoxWidgetCalendarHeader" style="display:block;" data-dojo-attach-point="headerWrapper">
+		<div>
+			<div class="dojoxWidgetCalendarDecrease" data-dojo-attach-point="decrementDay"></div>
+		</div>		
+		<div class="">
+			<div class="dojoxWidgetCalendarIncrease" data-dojo-attach-point="incrementDay"></div>
+		</div>
+		<div class="dojoxWidgetCalendarTitle" data-dojo-attach-point="headerDate" data-dojo-attach-event="onclick: onHeaderClick">
+		</div>
+	</div>
+	<input data-dojo-type="dijit/form/TimeTextBox" data-dojo-attach-point="timeTextBox" class="timeInput"/>
+	<table class="spinners">
+		<tr>
+			<th>${i18n.hoursLabel}</th>
+			<td><input data-dojo-type="dijit/form/HorizontalSlider" data-dojo-attach-point="hoursSpinner" data-dojo-props="minimum:0, maximum:23, intermediateChanges:true, discreteValues:24"/></td>
+		</tr>
+		<tr>
+			<th>${i18n.minutesLabel}</th>
+			<td><input data-dojo-type="dijit/form/HorizontalSlider" data-dojo-attach-point="minutesSpinner" data-dojo-props="minimum:0, maximum:59, intermediateChanges:true, discreteValues:60" /></td>
+		</tr>
+		<tr data-dojo-attach-point="secondsRow">
+			<th>${i18n.secondsLabel}</th> 
+			<td><input data-dojo-type="dijit/form/HorizontalSlider" data-dojo-attach-point="secondsSpinner" data-dojo-props="minimum:0, maximum:59, intermediateChanges:true, discreteValues:60" /></td>
+		</tr>
+	</table>
+	<span class="dijit dijitReset dijitInline dijitButton" data-dojo-attach-event="onclick:onOk" data-dojo-attach-point="okBtn" >
+		<span class="dijitReset dijitInline dijitButtonNode">
+			<span class="dijitReset dijitStretch dijitButtonContents">
+				<span class="dijitReset dijitInline dijitButtonText">${i18n.buttonOk}</span>
+			</span>
+		</span>
+	</span>
+	<span class="dijit dijitReset dijitInline dijitButton" data-dojo-attach-event="onclick:onCancel" data-dojo-attach-point="cancelBtn" >
+		<span class="dijitReset dijitInline dijitButtonNode">
+			<span class="dijitReset dijitStretch dijitButtonContents">
+				<span class="dijitReset dijitInline dijitButtonText">${i18n.buttonCancel}</span>
+			</span>
+		</span>
+	</span>
+</div>
+
+

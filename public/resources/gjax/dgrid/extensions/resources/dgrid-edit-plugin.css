@@ -1,0 +1,91 @@
+/*dGrid editPlugin*/
+
+.editingRow {
+	background: #cfe5fa;
+}
+
+.dgrid-editNode {
+	background: transparent;
+	filter: initial;
+	text-align: right;
+}
+
+.dgrid-editNode .dgrid-cell,
+.dgrid-cell.dgrid-cell-editing {
+	padding-left: 9px;
+	padding-right: 6px;
+}
+.dgrid-editNode .dgrid-cell .dijit,
+.dgrid-cell-editing .dijitTextBox {
+	width: 97%;
+}
+
+.dgrid-editNode .dgrid-cell .dijitCheckBox,
+.dgrid-editNode .dgrid-cell .dijitRadio {
+	width: 18px;
+}
+
+.dgrid-editNode .dgrid-cell .dijitButton {
+	width: auto;
+}
+
+.dgrid-row .dgrid-row-table .dgrid-column-editPlugin-one,.dgrid-row .dgrid-row-table .dgrid-column-editPlugin-two {
+	text-align: center;
+	vertical-align: middle;
+	padding: 3px;
+}
+
+.dgrid-column-editPlugin-one {
+	width: 40px;
+}
+
+.dgrid-column-editPlugin-two {
+	width: 71px;
+}
+
+.dgrid-page-size{
+	font-size: 11px;
+}
+
+.dgrid-btnEdit {
+	background-image: url("./images/edit_white.png");
+	width: 13px;
+	height: 13px;
+	background-position-x: 0px;
+}
+
+.dgrid-btnDelete {
+	background-image: url("./images/delete_white.png");
+	width: 13px;
+	height: 13px;
+	background-position-x: 0px;
+}
+
+.dgrid-btnSubmit {
+	background-image: url("./images/save-blue.png");
+	width: 14px;
+	height: 14px;
+	background-position-x: 0px;
+}
+
+.dijitButtonDisabled .dgrid-btnSubmit {
+	background-position-x: -14px;
+}
+
+.dgrid-btnSubmitPlus {
+	background-image: url("./images/save_plus_white.png");
+	width: 13px;
+	height: 13px;
+	background-position-x: 0px;
+}
+
+.dgrid-btnReset {
+	background-image: url("./images/reset_white.png");
+	width: 13px;
+	height: 13px;
+	background-position-x: 0px;
+}
+
+.auto-height .dgrid-editNode .dgrid-scrollbar-width, .dgrid-autoheight .dgrid-editNode .dgrid-scrollbar-width{
+	display: none;
+}

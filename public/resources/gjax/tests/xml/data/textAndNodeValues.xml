@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <empty></empty>
+    <emptyWithEnter>
+    </emptyWithEnter>
+    <withWhitespaces>
+        <a>  a  b  </a>
+        <cd/>
+        <a>  e  f  </a>
+    </withWhitespaces>
+</root>

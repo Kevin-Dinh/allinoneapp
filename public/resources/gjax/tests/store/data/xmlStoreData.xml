@@ -1,0 +1,789 @@
+<TransEnv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	tid="0" srvrTransDate="2016-02-09T14:35:08.834Z" sRecNoDelivered="12">
+	<IndTypeLossList>
+		<IndTypeLoss ID_INDTYPELOSS="INDTYPELOSS_23">
+			<s_ipn>110200800001</s_ipn>
+			<s_damaged_name>Alzheimer Aladár</s_damaged_name>
+			<s_damaged_id>5511111111</s_damaged_id>
+			<nl_damaged_extid>0</nl_damaged_extid>
+			<s_author_name>Zúfalec Vojto</s_author_name>
+			<s_author_id>5601010000</s_author_id>
+			<nl_author_extid>0</nl_author_extid>
+			<nl_indtype_id>3</nl_indtype_id>
+			<nl_itlstt_id>1</nl_itlstt_id>
+		</IndTypeLoss>
+		<IndTypeLoss ID_INDTYPELOSS="INDTYPELOSS_350">
+			<s_ipn>110201000196</s_ipn>
+			<s_damaged_name>Pčelárová Elvíra Štefánia</s_damaged_name>
+			<s_damaged_id>6561199092</s_damaged_id>
+			<nl_damaged_extid>0</nl_damaged_extid>
+			<s_author_name>Pčelárová Elvíra Štefánia</s_author_name>
+			<s_author_id>6561199092</s_author_id>
+			<nl_author_extid>0</nl_author_extid>
+			<nl_indtype_id>33</nl_indtype_id>
+			<nl_itlstt_id>1</nl_itlstt_id>
+		</IndTypeLoss>
+		<IndTypeLoss ID_INDTYPELOSS="INDTYPELOSS_377">
+			<s_ipn>110201000222</s_ipn>
+			<s_damaged_name>Depauw Ivan Alfonz</s_damaged_name>
+			<s_damaged_id>9006050097</s_damaged_id>
+			<nl_damaged_extid>0</nl_damaged_extid>
+			<s_author_name>Depauw Ivan Alfonz</s_author_name>
+			<s_author_id>9006050097</s_author_id>
+			<nl_author_extid>0</nl_author_extid>
+			<nl_indtype_id>33</nl_indtype_id>
+			<nl_itlstt_id>1</nl_itlstt_id>
+		</IndTypeLoss>
+		<IndTypeLoss ID_INDTYPELOSS="INDTYPELOSS_378">
+			<s_ipn>110201000223</s_ipn>
+			<s_damaged_name>Dargocký Iľja Štefan</s_damaged_name>
+			<s_damaged_id>7312029090</s_damaged_id>
+			<nl_damaged_extid>0</nl_damaged_extid>
+			<s_author_name>Dargocký Iľja Štefan</s_author_name>
+			<s_author_id>7312029090</s_author_id>
+			<nl_author_extid>0</nl_author_extid>
+			<nl_indtype_id>33</nl_indtype_id>
+			<nl_itlstt_id>1</nl_itlstt_id>
+		</IndTypeLoss>
+		<IndTypeLoss ID_INDTYPELOSS="INDTYPELOSS_398">
+			<s_ipn>110201000240</s_ipn>
+			<s_damaged_name>Völfl Adam Prokop</s_damaged_name>
+			<s_damaged_id>6601109009</s_damaged_id>
+			<nl_damaged_extid>0</nl_damaged_extid>
+			<s_author_name>Völfl Adam Prokop</s_author_name>
+			<s_author_id>6601109009</s_author_id>
+			<nl_author_extid>0</nl_author_extid>
+			<nl_indtype_id>33</nl_indtype_id>
+			<nl_itlstt_id>1</nl_itlstt_id>
+		</IndTypeLoss>
+		<IndTypeLoss ID_INDTYPELOSS="INDTYPELOSS_622">
+			<s_ipn>110201000346</s_ipn>
+			<s_damaged_name>Zúfalec Vojto</s_damaged_name>
+			<s_damaged_id>5601010000</s_damaged_id>
+			<nl_damaged_extid>0</nl_damaged_extid>
+			<s_author_name>Zúfalec Vojto</s_author_name>
+			<s_author_id>5601010000</s_author_id>
+			<nl_author_extid>0</nl_author_extid>
+			<nl_indtype_id>19</nl_indtype_id>
+			<nl_itlstt_id>1</nl_itlstt_id>
+		</IndTypeLoss>
+		<IndTypeLoss ID_INDTYPELOSS="INDTYPELOSS_625">
+			<s_ipn>110201000346</s_ipn>
+			<s_damaged_name>Zúfalec Vojto</s_damaged_name>
+			<s_damaged_id>5601010000</s_damaged_id>
+			<nl_damaged_extid>0</nl_damaged_extid>
+			<s_author_name>Zúfalec Vojto</s_author_name>
+			<s_author_id>5601010000</s_author_id>
+			<nl_author_extid>0</nl_author_extid>
+			<nl_indtype_id>22</nl_indtype_id>
+			<nl_itlstt_id>1</nl_itlstt_id>
+		</IndTypeLoss>
+		<IndTypeLoss ID_INDTYPELOSS="INDTYPELOSS_942">
+			<s_ipn>110201100095</s_ipn>
+			<s_damaged_name>Achilesová Persefona</s_damaged_name>
+			<s_damaged_id>6655117777</s_damaged_id>
+			<nl_damaged_extid>0</nl_damaged_extid>
+			<s_author_name>Achilesová Persefona</s_author_name>
+			<s_author_id>6655117777</s_author_id>
+			<nl_author_extid>0</nl_author_extid>
+			<nl_indtype_id>45</nl_indtype_id>
+			<nl_itlstt_id>1</nl_itlstt_id>
+		</IndTypeLoss>
+		<IndTypeLoss ID_INDTYPELOSS="INDTYPELOSS_1008">
+			<s_ipn>110201100150</s_ipn>
+			<s_damaged_name>Zúfalec Vojto</s_damaged_name>
+			<s_damaged_id>5601010000</s_damaged_id>
+			<nl_damaged_extid>0</nl_damaged_extid>
+			<s_author_name>Zúfalec Vojto</s_author_name>
+			<s_author_id>5601010000</s_author_id>
+			<nl_author_extid>0</nl_author_extid>
+			<nl_indtype_id>33</nl_indtype_id>
+			<nl_itlstt_id>1</nl_itlstt_id>
+		</IndTypeLoss>
+		<IndTypeLoss ID_INDTYPELOSS="INDTYPELOSS_1068">
+			<s_ipn>110100800020</s_ipn>
+			<s_damaged_name>Zúfalec Vojto</s_damaged_name>
+			<s_damaged_id>5601010000</s_damaged_id>
+			<nl_damaged_extid>0</nl_damaged_extid>
+			<s_author_name>Zúfalec Vojto</s_author_name>
+			<s_author_id>5601010000</s_author_id>
+			<nl_author_extid>0</nl_author_extid>
+			<nl_indtype_id>33</nl_indtype_id>
+			<nl_itlstt_id>1</nl_itlstt_id>
+		</IndTypeLoss>
+		<IndTypeLoss ID_INDTYPELOSS="INDTYPELOSS_1138">
+			<s_ipn>110201400006</s_ipn>
+			<s_damaged_name>Preplatkový Krištof</s_damaged_name>
+			<s_damaged_id>5511229999</s_damaged_id>
+			<nl_damaged_extid>0</nl_damaged_extid>
+			<s_author_name>Preplatkový Krištof</s_author_name>
+			<s_author_id>5511229999</s_author_id>
+			<nl_author_extid>0</nl_author_extid>
+			<nl_indtype_id>19</nl_indtype_id>
+			<nl_itlstt_id>1</nl_itlstt_id>
+		</IndTypeLoss>
+		<IndTypeLoss ID_INDTYPELOSS="INDTYPELOSS_1168">
+			<s_ipn>110201400019</s_ipn>
+			<s_damaged_name>Múdry Jozef</s_damaged_name>
+			<s_damaged_id>3301010000</s_damaged_id>
+			<nl_damaged_extid>0</nl_damaged_extid>
+			<s_author_name>Múdry Jozef</s_author_name>
+			<s_author_id>3301010000</s_author_id>
+			<nl_author_extid>0</nl_author_extid>
+			<nl_indtype_id>41</nl_indtype_id>
+			<nl_itlstt_id>1</nl_itlstt_id>
+		</IndTypeLoss>
+	</IndTypeLossList>
+
+	<enumClaimsAdjusterList
+		 option="_p">
+		<enumClaimsAdjuster>
+			<ID>8136CE398ADA4D8C82D011B84D7197CA</ID>
+			<NAME>isup1</NAME>
+			<ACCOUNT_NAME>isup1@disup.sk</ACCOUNT_NAME>
+		</enumClaimsAdjuster>
+		<enumClaimsAdjuster>
+			<ID>D066E252628C4D4FAE42429FB9EA8AE6</ID>
+			<NAME>isup_ca_1</NAME>
+			<ACCOUNT_NAME></ACCOUNT_NAME>
+		</enumClaimsAdjuster>
+		<enumClaimsAdjuster>
+			<ID>DADA356448AD47E6A7444F26C6EB8573</ID>
+			<NAME>isupPob</NAME>
+			<ACCOUNT_NAME>isupPob@disup.sk</ACCOUNT_NAME>
+		</enumClaimsAdjuster>
+		<enumClaimsAdjuster>
+			<ID>D970087B77A34FE5BC1A7F0E556A2A00</ID>
+			<NAME>testujem lac</NAME>
+			<ACCOUNT_NAME>testujem@disup.sk</ACCOUNT_NAME>
+		</enumClaimsAdjuster>
+		<enumClaimsAdjuster>
+			<ID>CE2BFF802F94427B954AC91C4D37F746</ID>
+			<NAME>isup_all2_1</NAME>
+			<ACCOUNT_NAME></ACCOUNT_NAME>
+		</enumClaimsAdjuster>
+		<enumClaimsAdjuster>
+			<ID>B404999CD02646D681D5CE04249B2EAC</ID>
+			<NAME>isup_all_1</NAME>
+			<ACCOUNT_NAME></ACCOUNT_NAME>
+		</enumClaimsAdjuster>
+		<enumClaimsAdjuster>
+			<ID>73631FB9134849E2AE9B445637A939F9</ID>
+			<NAME>isup_ca2_1</NAME>
+			<ACCOUNT_NAME></ACCOUNT_NAME>
+		</enumClaimsAdjuster>
+	</enumClaimsAdjusterList>
+	<enumClaimsOfficerList 
+		option="_p">
+		<enumClaimsOfficer>
+			<ID>8136CE398ADA4D8C82D011B84D7197CA</ID>
+			<NAME>isup1</NAME>
+			<ACCOUNT_NAME>isup1@disup.sk</ACCOUNT_NAME>
+		</enumClaimsOfficer>
+		<enumClaimsOfficer>
+			<ID>DADA356448AD47E6A7444F26C6EB8573</ID>
+			<NAME>isupPob</NAME>
+			<ACCOUNT_NAME>isupPob@disup.sk</ACCOUNT_NAME>
+		</enumClaimsOfficer>
+		<enumClaimsOfficer>
+			<ID>9864C56602244B16903364F8FB20D20F</ID>
+			<NAME>isup_co2_1</NAME>
+			<ACCOUNT_NAME></ACCOUNT_NAME>
+		</enumClaimsOfficer>
+		<enumClaimsOfficer>
+			<ID>D970087B77A34FE5BC1A7F0E556A2A00</ID>
+			<NAME>testujem lac</NAME>
+			<ACCOUNT_NAME>testujem@disup.sk</ACCOUNT_NAME>
+		</enumClaimsOfficer>
+		<enumClaimsOfficer>
+			<ID>CE2BFF802F94427B954AC91C4D37F746</ID>
+			<NAME>isup_all2_1</NAME>
+			<ACCOUNT_NAME></ACCOUNT_NAME>
+		</enumClaimsOfficer>
+		<enumClaimsOfficer>
+			<ID>D77989954500403FB2E7FF392B85531F</ID>
+			<NAME>isup_co_1</NAME>
+			<ACCOUNT_NAME></ACCOUNT_NAME>
+		</enumClaimsOfficer>
+		<enumClaimsOfficer>
+			<ID>B404999CD02646D681D5CE04249B2EAC</ID>
+			<NAME>isup_all_1</NAME>
+			<ACCOUNT_NAME></ACCOUNT_NAME>
+		</enumClaimsOfficer>
+	</enumClaimsOfficerList>
+	<enumITLStateList 
+		option="_f">
+		<enumITLState>
+			<ID_ITLSTT>1</ID_ITLSTT>
+			<S_DESCRIPT>Likvidácia</S_DESCRIPT>
+		</enumITLState>
+		<enumITLState>
+			<ID_ITLSTT>2</ID_ITLSTT>
+			<S_DESCRIPT>Kontrola</S_DESCRIPT>
+		</enumITLState>
+		<enumITLState>
+			<ID_ITLSTT>3</ID_ITLSTT>
+			<S_DESCRIPT>Kontrola vedúci</S_DESCRIPT>
+		</enumITLState>
+		<enumITLState>
+			<ID_ITLSTT>4</ID_ITLSTT>
+			<S_DESCRIPT>Zaslať rozhodnutie</S_DESCRIPT>
+		</enumITLState>
+		<enumITLState>
+			<ID_ITLSTT>5</ID_ITLSTT>
+			<S_DESCRIPT>Dávka priznaná</S_DESCRIPT>
+		</enumITLState>
+		<enumITLState>
+			<ID_ITLSTT>6</ID_ITLSTT>
+			<S_DESCRIPT>Dávka nepriznaná</S_DESCRIPT>
+		</enumITLState>
+		<enumITLState>
+			<ID_ITLSTT>7</ID_ITLSTT>
+			<S_DESCRIPT>Dávka stornovaná</S_DESCRIPT>
+		</enumITLState>
+	</enumITLStateList>
+	<enumTypExtIdList 
+		option="_f">
+		<enumTypExtId>
+			<ID_TYPEXTID>0</ID_TYPEXTID>
+			<S_DESCRIPT>Rodné číslo</S_DESCRIPT>
+		</enumTypExtId>
+		<enumTypExtId>
+			<ID_TYPEXTID>1</ID_TYPEXTID>
+			<S_DESCRIPT>Iný identifikátor</S_DESCRIPT>
+		</enumTypExtId>
+		<enumTypExtId>
+			<ID_TYPEXTID>2</ID_TYPEXTID>
+			<S_DESCRIPT>IČO</S_DESCRIPT>
+		</enumTypExtId>
+		<enumTypExtId>
+			<ID_TYPEXTID>3</ID_TYPEXTID>
+			<S_DESCRIPT>Rodné číslo zamestnávajúcej osoby</S_DESCRIPT>
+		</enumTypExtId>
+		<enumTypExtId>
+			<ID_TYPEXTID>4</ID_TYPEXTID>
+			<S_DESCRIPT>Iný identifikátor zamestnávajúcej osoby</S_DESCRIPT>
+		</enumTypExtId>
+		<enumTypExtId>
+			<ID_TYPEXTID>5</ID_TYPEXTID>
+			<S_DESCRIPT>DIČ</S_DESCRIPT>
+		</enumTypExtId>
+	</enumTypExtIdList>
+	<enumIndTypeList 
+		option="_f">
+		<enumIndType>
+			<ID_INDTYPE>1</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za stratu na zárobku počas PN</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>SZpPN</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>2</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za stratu na zárobku po skončení PN</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>SZpoPN</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>3</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za bolesť</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>Bol</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>4</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za sťaženie spoločenského uplatnenia</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>StazSU</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>5</ID_INDTYPE>
+			<S_DESCRIPT>náhrada účelne vynaložených nákladov na liečenie
+			</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>UVNL</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>6</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za stratu na dôchodku</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>SnD</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>7</ID_INDTYPE>
+			<S_DESCRIPT>náhrada účelne vynaložených nákladov na liečenie
+				zomrelého</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>UVNLZ</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>8</ID_INDTYPE>
+			<S_DESCRIPT>náhrada primeraných nákladov na pohreb</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>PNP</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>9</ID_INDTYPE>
+			<S_DESCRIPT>náhrada nákladov na výživu pozostalých</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>VP</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>10</ID_INDTYPE>
+			<S_DESCRIPT>jednorázové odškodnenie pozostalých</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>JOP</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>11</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za stratu na zárobku počas PN</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>SZpPN</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>12</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za stratu na zárobku po skončení PN</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>SZpoPN</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>13</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za bolesť</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>Bol</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>14</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za sťaženie spoločenského uplatnenia</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>StazSU</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>15</ID_INDTYPE>
+			<S_DESCRIPT>náhrada účelne vynaložených nákladov na liečenie
+			</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>UVNL</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>16</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za stratu na dôchodku</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_TO>2003-12-31</D_TO>
+			<S_ABBR>SnD</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>17</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za stratu na zárobku počas PN po 01.01.2004
+			</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>SZpPN</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>1</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>18</ID_INDTYPE>
+			<S_DESCRIPT>úrazová renta</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>1</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>ÚR</S_ABBR>
+			<S_ACCOUNT>9272101</S_ACCOUNT>
+			<NL_RENTCAT_ID>2</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>19</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za bolesť po 01.01.2004</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>B</S_ABBR>
+			<S_ACCOUNT>9272108</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>20</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za sťaženie spoločenského uplatnenia po
+				01.01.2004</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>SSU</S_ABBR>
+			<S_ACCOUNT>9272108</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>21</ID_INDTYPE>
+			<S_DESCRIPT>náhrada nákladov spojených s liečením po 01.01.2004
+			</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>NNL</S_ABBR>
+			<S_ACCOUNT>9272109</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>22</ID_INDTYPE>
+			<S_DESCRIPT>jednorazové vyrovnanie</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>JV</S_ABBR>
+			<S_ACCOUNT>9272103</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>23</ID_INDTYPE>
+			<S_DESCRIPT>náhrada nákladov spojených s pohrebom po 01.01.2004
+			</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>NNP</S_ABBR>
+			<S_ACCOUNT>9272110</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>24</ID_INDTYPE>
+			<S_DESCRIPT>pozostalostná úrazová renta</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>1</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>PÚR</S_ABBR>
+			<NL_RENTCAT_ID>1</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>25</ID_INDTYPE>
+			<S_DESCRIPT>jednorazové odškodnenie</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>JO</S_ABBR>
+			<S_ACCOUNT>9272105</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>26</ID_INDTYPE>
+			<S_DESCRIPT>pracovná rehabilitácia</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>Preh</S_ABBR>
+			<S_ACCOUNT>9272106</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>27</ID_INDTYPE>
+			<S_DESCRIPT>rehabilitačné</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>Reh</S_ABBR>
+			<S_ACCOUNT>9272106</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>28</ID_INDTYPE>
+			<S_DESCRIPT>rekvalifikácia</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>Rek</S_ABBR>
+			<S_ACCOUNT>9272107</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>29</ID_INDTYPE>
+			<S_DESCRIPT>rekvalifikačné</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>Rekv</S_ABBR>
+			<S_ACCOUNT>9272107</S_ACCOUNT>
+			<NL_RENTCAT_ID>1</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>30</ID_INDTYPE>
+			<S_DESCRIPT>úrazový príplatok</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>Úpr</S_ABBR>
+			<S_ACCOUNT>9272101</S_ACCOUNT>
+			<NL_RENTCAT_ID>1</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>31</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za stratu na zárobku počas PN po 01.01.2004
+			</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>SZpPN</S_ABBR>
+			<S_ACCOUNT>9272112</S_ACCOUNT>
+			<NL_RENTCAT_ID>1</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>32</ID_INDTYPE>
+			<S_DESCRIPT>úrazová renta</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>1</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>ÚR</S_ABBR>
+			<NL_RENTCAT_ID>2</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>33</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za bolesť po 01.01.2004</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>B</S_ABBR>
+			<S_ACCOUNT>9272108</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>34</ID_INDTYPE>
+			<S_DESCRIPT>náhrada za sťaženie spoločenského uplatnenia po
+				01.01.2004</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>SSU</S_ABBR>
+			<S_ACCOUNT>9272108</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>35</ID_INDTYPE>
+			<S_DESCRIPT>náhrada nákladov spojených s liečením po 01.01.2004
+			</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>NNL</S_ABBR>
+			<S_ACCOUNT>9272109</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>36</ID_INDTYPE>
+			<S_DESCRIPT>jednorazové vyrovnanie</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>JV</S_ABBR>
+			<S_ACCOUNT>9272103</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>37</ID_INDTYPE>
+			<S_DESCRIPT>náhrada nákladov spojených s pohrebom</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>NNP</S_ABBR>
+			<S_ACCOUNT>9272110</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>38</ID_INDTYPE>
+			<S_DESCRIPT>pozostalostná úrazová renta</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>1</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>PÚR</S_ABBR>
+			<NL_RENTCAT_ID>1</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>39</ID_INDTYPE>
+			<S_DESCRIPT>jednorazové odškodnenie</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>JO</S_ABBR>
+			<S_ACCOUNT>9272105</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>40</ID_INDTYPE>
+			<S_DESCRIPT>pracovná rehabilitácia</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>Preh</S_ABBR>
+			<S_ACCOUNT>9272106</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>41</ID_INDTYPE>
+			<S_DESCRIPT>rehabilitačné</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>Reh</S_ABBR>
+			<S_ACCOUNT>9272106</S_ACCOUNT>
+			<NL_RENTCAT_ID>1</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>42</ID_INDTYPE>
+			<S_DESCRIPT>rekvalifikácia</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>1</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>Rek</S_ABBR>
+			<S_ACCOUNT>9272107</S_ACCOUNT>
+			<NL_RENTCAT_ID>0</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>43</ID_INDTYPE>
+			<S_DESCRIPT>rekvalifikačné</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>Rekv</S_ABBR>
+			<S_ACCOUNT>9272107</S_ACCOUNT>
+			<NL_RENTCAT_ID>1</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>44</ID_INDTYPE>
+			<S_DESCRIPT>úrazový príplatok</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>Úpr</S_ABBR>
+			<S_ACCOUNT>9272101</S_ACCOUNT>
+			<NL_RENTCAT_ID>1</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>45</ID_INDTYPE>
+			<S_DESCRIPT>úrazový príplatok (nový)</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>1</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>ÚprN</S_ABBR>
+			<S_ACCOUNT>9272101</S_ACCOUNT>
+			<NL_RENTCAT_ID>3</NL_RENTCAT_ID>
+		</enumIndType>
+		<enumIndType>
+			<ID_INDTYPE>46</ID_INDTYPE>
+			<S_DESCRIPT>úrazový príplatok (nový)</S_DESCRIPT>
+			<NL_LOSSCLASS_ID>2</NL_LOSSCLASS_ID>
+			<NL_HQ_ADJUSTER>0</NL_HQ_ADJUSTER>
+			<NL_MULTIPLE>0</NL_MULTIPLE>
+			<D_FROM>2004-01-01</D_FROM>
+			<S_ABBR>ÚprN</S_ABBR>
+			<S_ACCOUNT>9272101</S_ACCOUNT>
+			<NL_RENTCAT_ID>3</NL_RENTCAT_ID>
+		</enumIndType>
+	</enumIndTypeList>
+
+</TransEnv>

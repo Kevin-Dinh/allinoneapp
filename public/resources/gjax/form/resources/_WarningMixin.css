@@ -1,0 +1,51 @@
+ .claro .dijitValidationTextBoxWarning .dijitValidationContainer {
+  background-color: #FFE303;
+  background-image: url("./images/warning.png");
+  background-position: top center;
+  border: solid #FFE303 0;
+  width: 9px;
+}
+.claro .dijitTextBoxWarning .dijitValidationContainer {
+  border-left-width: 1px;
+}
+.claro .dijitValidationTextBoxWarning .dijitValidationIcon {
+  width: 0;
+  background-color: transparent;
+  /* so the INPUT doesn't obscure the border in rtl+a11y */
+
+}
+ 
+/* error state */
+.claro .dijitSelectError,
+.claro .dijitSelectError .dijitButtonContents,
+.claro .dijitTextBoxWarning,
+.claro .dijitTextBoxWarning .dijitButtonNode {
+  border-color: #DABA16;
+}
+ 
+.claro .dijitSelectErrorFocused,
+.claro .dijitSelectErrorFocused .dijitButtonContents,
+.claro .dijitTextBoxWarningFocused,
+.claro .dijitTextBoxWarningFocused .dijitButtonNode {
+  border-color: #F1AE3C;
+}
+ 
+.dijitValidationTextBoxWarning input.dijitValidationInner,
+.dijitSelect input,
+.dijitTextBox input.dijitArrowButtonInner {
+	/* <input> used to display arrow icon/validation icon, or in arrow character in high contrast mode.
+	 * The css below is a trick to hide the character in non-high-contrast mode
+	 */
+	text-indent: -2em !important;
+	direction: ltr !important;
+	text-align: left !important;
+	height: auto !important;
+	#text-indent: 0 !important;
+	#letter-spacing: -5em !important;
+	#text-align: right !important;
+}
+ 
+.dijitValidationTextBoxWarning .dijitValidationContainer {
+	display: inline;
+	cursor: default;
+}

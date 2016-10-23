@@ -1,0 +1,10 @@
+{
+	"name" : "B",
+	"id" : "b.json", 
+	"a" : {
+		"$ref" : "sub/a.json" 
+	},
+	"c" : {
+		"some" : "value"
+	}
+} 

@@ -1,0 +1,107 @@
+<!--
+- Form:			i18n
+- Author:   	arakovsky
+- Created:		08/04/2013
+- Description:	
+-->
+
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<META http-equiv="X-UA-Compatible" content="IE=edge">
+<META charset="UTF-8">
+
+<TITLE>TestPage:i18n</TITLE>
+</HEAD>
+<BODY class="claro gjax">
+
+	<H1>TestPage:i18n</H1>
+	<fieldset>
+		<legend>Client side localization (gjax)</legend>
+		<p>Messages taken from:</p>
+		<ol>
+			<li>/unit-test/gjax/i18n/screen.jspx_{locale}.properties</li>
+			<li>/unit-test/gjax/i18n/_messages_{locale}.properties</li>
+			<li>/unit-test/gjax/_messages_{locale}.properties</li>
+		</ol>
+		<dl>
+			<dt>Code from local 'screen.jspx' properties file:</dt>
+			<dd id="screenJspx"></dd>
+			<dt>Code from local '_messages' properties file:</dt>
+			<dd id="message"></dd>
+			<dt>Code in local _messages and screen.jspx files and parent folder:</dt>
+			<dd id="btnSave"></dd>
+			<dt>Code in local _messages file and parent folder:</dt>
+			<dd id="btnOk"></dd>
+			<dt>Code from parent folder:</dt>
+			<dd id="btnSearch"></dd>
+			<dt>Unresolved code:</dt>
+			<dd id="randomUnresolvedCode"></dd>
+			<dt>Message with array params:</dt>
+			<dd id="messageWithArrParams"></dd>
+			<dt>Message with one array param:</dt>
+			<dd id="messageWithOneArrParam"></dd>
+			<dt>Message with one array param (passed as string):</dt>
+			<dd id="messageWithOneArrParam2"></dd>
+			dd>
+			<dt>Message with object params:</dt>
+			<dd id="messageWithObjParams"></dd>
+		</dl>
+		<p>Messages taken from:</p>
+		<ol>
+			<li>/unit-test/gjax/i18n/nestedFolder/_messages_{locale}.properties</li>
+			<li>/unit-test/gjax/i18n/_messages_{locale}.properties</li>
+			<li>/unit-test/gjax/_messages_{locale}.properties</li>
+		</ol>
+		<dl>
+			<dt>Code from nestedFolder/_messages properties file:</dt>
+			<dd id="nest1Message"></dd>
+			<dt>Code from local _messages properties file:</dt>
+			<dd id="nest1Message2"></dd>
+		</dl>
+		<p>Messages taken from:</p>
+		<ol>
+			<li>/unit-test/gjax/i18n/nestedFolder/nestedFolder2/_messages_{locale}.properties</li>
+			<li>/unit-test/gjax/i18n/nestedFolder/_messages_{locale}.properties</li>
+			<li>/unit-test/gjax/i18n/_messages_{locale}.properties</li>
+			<li>/unit-test/gjax/_messages_{locale}.properties</li>
+		</ol>
+		<dl>
+			<dt>Code from nestedFolder/nestedFolder2/_messages properties file:</dt>
+			<dd id="nest2Message"></dd>
+			<dt>Code from local _messages properties file:</dt>
+			<dd id="nest2Message2"></dd>
+		</dl>
+	</fieldset>
+	<fieldset>
+		<legend>Client side localization (dojo)</legend>
+		<p>Messages taken from:</p>
+		<ol>
+			<li>/unit-test/gjax/i18n/nls/{locale}/Test.js</li>
+			<li>/unit-test/gjax/i18n/nls/Test.js</li>
+		</ol>
+
+		<dl>
+			<dt>Code from screen.jspx file:</dt>
+			<dd id="screenJspxMessage2"></dd>
+			<dt>Code from local messages file:</dt>
+			<dd id="localMessage2"></dd>
+			<dt>Code from parent folder:</dt>
+			<dd id="btnSave2"></dd>
+			<dt>Code in local messages file and parent folder (parent=Search, local=Search button):</dt>
+			<dd id="btnSearch2"></dd>
+			<dt>Unresolved code:</dt>
+			<dd id="randomUnresolvedCode2"></dd>
+		</dl>
+	</fieldset>
+
+	<!-- 	override gnls folder to skip DojoLocalization controller -->
+	<SCRIPT data-dojo-config="async: true, isDebug: true, parseOnLoad: true, locale:'sk-sk', gnlsFolder:'/mock-gnls'" src="../../../dojo/dojo.js"></SCRIPT>
+	<SCRIPT>
+		require([
+			"gjax/tests/i18n/i18n"
+		]);
+	</SCRIPT>
+</BODY>
+</HTML>
+

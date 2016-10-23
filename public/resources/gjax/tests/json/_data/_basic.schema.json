@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-03/schema#",
+    "additionalProperties": false,
+    "properties":
+    {
+		"intVal" : {
+			"type" : "integer"
+		},
+		"nullVal" : {
+		    "type" : "null"
+		},
+		"stringVal" : {
+		    "type" : "string"
+		},
+		"numVal" : {
+		    "type" : "number"
+		},
+		"stringOrNull" : {
+			"type" : ["string","null"]
+		},
+		"stringOrNull2" : {
+			"type" : ["string","null"]
+		},
+		"dateVal" : {
+			"type" : "string",
+			"format" : "date"
+		},
+		"dateObjVal" : {
+			"type" : "string",
+			"format" : "date"
+		},
+		"dateObjOrNull" : {
+			"type" : ["string","null"],
+			"format" : "date"
+		},
+		"timeObjVal" : {
+			"type" : "string",
+			"format" : "time"
+		},
+		"timeObjOrNull" : {
+			"type" : ["string","null"],
+			"format" : "time"
+		},
+		"dateTimeObjVal" : {
+			"type" : "string",
+			"format" : "date-time"
+		},
+		"dateTimeObjOrNull" : {
+			"type" : ["string","null"],
+			"format" : "date-time"
+		}
+    }
+}

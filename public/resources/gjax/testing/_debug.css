@@ -1,0 +1,43 @@
+.debug-icon {
+	display: block;
+	width: 16px;
+	height: 15px;
+	color: transparent;
+	position: absolute;
+	bottom: 4px;
+	z-index: 1000;
+	text-indent: 100%;
+}
+
+.dev-tools {
+	background: url('_resources/enve-footer-dev-tools.png');
+	background-repeat: no-repeat;
+	right: 5px;
+	background-position-y: 3px;
+}
+
+.find-widget {
+	right: 30px;
+}
+
+.find-widget.start {
+	background: url('_resources/enve-footer-find-widget-start.png');
+	background-repeat: no-repeat;
+	background-position-y: 3px;
+}
+
+.find-widget.stop {
+	background: url('_resources/enve-footer-find-widget-stop.png');
+	background-repeat: no-repeat;
+	background-position-y: 3px;
+}
+
+.dev-tools,.find-widget {
+	color: #5A4949;
+	margin-right: 8px;
+	font-weight: 300;
+}
+
+.dijitTabContainerLeft-tabs .dijitTabChecked .tabLabel {
+	font-weight: normal;
+}

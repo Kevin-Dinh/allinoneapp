@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<a attribute="attribute.value">
+	<b value="123" />
+	<c>456</c>
+	<c2></c2>
+	<c3>789</c3>
+	<d value="" />
+	<date>2001-10-26</date>
+	<nested>
+		<x>123</x>
+		<y></y>
+	</nested>
+</a> 

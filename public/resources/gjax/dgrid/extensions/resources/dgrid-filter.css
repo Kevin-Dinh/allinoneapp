@@ -1,0 +1,28 @@
+.dgrid-filter {
+    width: auto;
+    font-weight: normal;
+    margin: 0 2px;
+}
+
+.dgrid-label-filter {
+    width: auto;
+    padding: 0;
+    margin-right: 2px;
+}
+
+.dgrid-reset-filter-footer {
+    height: 22px;
+    width: 16px;
+    margin: 0 4px;
+    float: right;
+    cursor: pointer;
+}
+
+.dgrid-reset-filter {
+    font-size: 130%;
+    display: block;
+    height: 100%;
+    background-image: url('./images/sort_remove.png');
+    background-repeat: no-repeat;
+    background-position: -186px 6px;
+}

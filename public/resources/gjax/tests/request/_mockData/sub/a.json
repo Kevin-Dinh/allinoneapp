@@ -1,0 +1,10 @@
+{
+	"name" : "A", 
+	"id" : "a.json", 
+	"b" : {
+		"$ref" : "../b.json"
+	}, 
+	"cc" : {
+		"$ref" : "../b.json#c"
+	}
+}

@@ -1,0 +1,31 @@
+/* if number, move arrow image */
+.dgrid-cell.dgrid-sort-up .dgrid-sort-order.dgrid-sort-arrow {
+	background-position: 4px -16px;
+}
+/* if number, move arrow image */
+.dgrid-cell.dgrid-sort-down .dgrid-sort-order.dgrid-sort-arrow {
+	background-position: -60px -16px;
+}
+
+.dgrid-reset-footer {
+	height : 22px;
+	width: 16px;
+	margin : 0 4px;
+	float : right;
+	cursor : pointer;
+}
+
+.dgrid-reset-sort {
+	font-size: 130%;
+	display : block;
+	height : 100%;
+	background-image:url('./images/sort_remove.png');
+	background-repeat:no-repeat;
+	background-position: -30px 6px;
+	
+}
+
+.dgrid-reset-sort.dgrid-reset-sort-disabled {
+	background-position: -94px 6px;
+	cursor: auto;
+}

@@ -1,0 +1,22 @@
+{
+	"type":[ {
+		"additionalProperties":false,
+		"type":"object",
+		"properties":{
+			"bar":{ 
+				"type":"string"
+			}
+		}
+	}, {
+		"type":"array",
+		"items":{
+			"type":"object",
+			"additionalProperties":false,
+			"properties":{
+				"foo":{ 
+					"type":"string"
+				}
+			}
+		}
+	} ]
+}
