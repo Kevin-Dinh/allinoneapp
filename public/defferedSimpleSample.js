@@ -5,9 +5,9 @@ function(Deferred, dom, on){
 
     dom.byId("output").innerHTML += "<br/>I'm running...";
 
-    setTimeout(function(){
+    //setTimeout(function(){
       deferred.resolve(msg);
-    }, 1000);
+    //}, 1000);
 
     return deferred.promise;
   }
